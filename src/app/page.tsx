@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <NavBar isOpen={isOpen} handleClick={handleClick}/>
+    
     </>
   );
 }
