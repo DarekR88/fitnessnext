@@ -32,6 +32,12 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-xl" href="/about">
           About
         </Link>
+        <Link onClick={handleClick} className="text-xl" href="/programs">
+          Programs
+        </Link>
+        <Link onClick={handleClick} className="text-xl" href="/contact">
+          Contact
+        </Link>
       </div>
       <header className="flex flex-col gap-4 pt-6 mb- justify-center items-center w-screen lg:flex-row">
         <button

@@ -5,8 +5,7 @@ import React, { useState } from "react";
 import { Raleway } from "next/font/google";
 import Link from "next/link";
 import { redirect } from "next/navigation";
-import { NavBar } from "@/components/NavBar";
-import { BurgerMenu } from "@/components/BurgerMenu";
+import { IntroCard } from "@/components/IntroCard";
 import MailIcon from "../../public/icons/mail_icon.svg";
 import XIcon from "../../public/icons/twitter_icon.svg";
 import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";
@@ -17,16 +16,13 @@ import WeightImg from "../../public/images/weights.jpg";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-wrap">
-        <div>
-          <Image src={WeightImg} alt="weights" width={500} />
-        </div>
-        <p>
-          At Maximum Fitness your health and wellness are our priority. Our
+      <IntroCard
+        introImg={WeightImg}
+        title="Maximum Fitness"
+        blurb="At Maximum Fitness your health and wellness are our priority. Our
           cutting edge training regiments and nutrition plans cover all the
-          bases when it comes to reaching your goals
-        </p>
-      </div>
+          bases when it comes to reaching your goals"
+      />
       <div className="flex flex-wrap w-full">
         <div className="lg:w-1/5">
           <div>
