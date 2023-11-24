@@ -17,7 +17,7 @@ import WeightImg from "../../public/images/weights.jpg";
 export default function Home() {
   return (
     <>
-      <div>
+      <div className="flex flex-wrap">
         <div>
           <Image src={WeightImg} alt="weights" width={500} />
         </div>
@@ -28,7 +28,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex flex-wrap w-full">
-        <div>
+        <div className="lg:w-1/5">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -38,7 +38,7 @@ export default function Home() {
             comfort is key to the process.
           </p>
         </div>
-        <div>
+        <div className="lg:w-1/5">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -48,7 +48,7 @@ export default function Home() {
             program specific to your needs.
           </p>
         </div>
-        <div>
+        <div className="lg:w-1/5">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
