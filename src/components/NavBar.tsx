@@ -23,7 +23,9 @@ export function NavBar() {
     <>
       <div
         className={`fixed flex flex-col w-screen h-screen z-10 bg-blue-100 text-center pt-20 ${
-          isOpen ? "transition ease-in-out translate-y-0 duration-500" : "transition ease-in-out -translate-y-full duration-500"
+          isOpen
+            ? "transition ease-in-out translate-y-0 duration-500"
+            : "transition ease-in-out -translate-y-full duration-500"
         }`}
       >
         <Link onClick={handleClick} className="text-xl" href="/">
@@ -39,7 +41,8 @@ export function NavBar() {
           Contact
         </Link>
       </div>
-      <header className="flex flex-col gap-4 pt-6 mb- justify-center items-center w-screen lg:flex-row">
+      <header className="flex flex-wrap gap-4 p-8 justify-center items-center w-screen lg:flex-row">
+        <p className="font-Raleway text-2xl z-0 pr-3">Maximum Fitness</p>
         <button
           onClick={handleClick}
           className="flex flex-col justify-center items-center z-20 lg:hidden"
@@ -63,7 +66,6 @@ export function NavBar() {
                     }`}
           ></span>
         </button>
-        <p className="font-Raleway text-2xl z-0">Maximum Fitness</p>
         <div className="flex gap-8 px-2 mb-2 z-0">
           <a
             href="mailto:darekradke2@gmail.com"

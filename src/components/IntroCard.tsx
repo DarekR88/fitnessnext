@@ -22,7 +22,7 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
             className="opacity-50"
           />
         </div>
-        <div className="absolute top-64 left-2 lg:w-1/3 lg:top-32 xlg:w-1/2">
+        <div className="absolute top-64 left-2 lg:w-1/3 lg:top-32">
           <p className="text-7xl text-white">{title}</p>
         </div>
       </div>
