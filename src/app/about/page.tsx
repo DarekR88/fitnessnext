@@ -12,7 +12,7 @@ export default function About() {
         introImg={introImg}
         title="About"
         blurb="At Maximum fitness we aim to provide the highest quality personal
-        training experience at an affordable price point. The concept behind
+        training experience at an affordable price. The concept behind
         Maximum fitness is to create a specialized environment for each client
         based on A.I. algorithms. These specialized programs are formulated to
         instill good habits and make working out and maintaining a healthy

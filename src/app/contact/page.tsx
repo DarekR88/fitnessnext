@@ -11,7 +11,7 @@ export default function Contact() {
       <IntroCard
         introImg={introImg}
         title="Contact"
-        blurb="Available 8am-10pm every day."
+        blurb="Available 6am-11pm every day."
       />
       <div>
         <p></p>

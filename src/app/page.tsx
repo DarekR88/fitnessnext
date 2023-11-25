@@ -28,7 +28,7 @@ export default function Home() {
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
-          <p>
+          <p className="mx-4 py-4">
             Evaluations are completely free and can be done in person at the
             location of your choosing, through video chat, or by phone. Your
             comfort is key to the process.
@@ -38,7 +38,7 @@ export default function Home() {
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
-          <p>
+          <p className="mx-4 py-4">
             After you've been evaluated by one of our qualified personal
             trainers, our cutting edge fitness AI will generate an exercise
             program specific to your needs.
@@ -48,7 +48,7 @@ export default function Home() {
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
-          <p>
+          <p className="mx-4 py-4">
             Nutrition is just as important as exercise when it comes to
             achieving fitness goals. Meal plans, nutritional education, and
             cooking guidance are all available from Ignition Fitness.

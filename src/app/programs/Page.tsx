@@ -22,8 +22,8 @@ export default function Programs() {
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>
-          <p>Live Video Call Training</p>
-          <p>
+          <p className="ml-3 pt-3">Live Video Call Training</p>
+          <p className="mx-4 pb-4 pt-2">
             Get in shape from the comfort of your own home. Our personal
             trainers will ensure you're working out with proper form and keep
             you accountable.
@@ -33,8 +33,8 @@ export default function Programs() {
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>
-          <p>In Person Training</p>
-          <p>
+          <p className="ml-3 pt-3">In Person Training</p>
+          <p className="mx-4 pb-4 pt-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
             Maximum Fitness offers 1 on 1 training, and training for groups of 2
@@ -45,8 +45,8 @@ export default function Programs() {
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>
-          <p>Hybrid</p>
-          <p>
+          <p className="ml-3 pt-3">Hybrid</p>
+          <p className="mx-4 pb-4 pt-2">
             Life can be hectic, scheduling with Maximum Fitness is easy. To ensure a high
             level of success our personal trainers are available to train you in
             person or online based on your individual needs. 
