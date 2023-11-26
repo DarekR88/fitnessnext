@@ -13,7 +13,7 @@ type IntroCardProps = {
 export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
   return (
     <>
-      <div className="flex flex-wrap justify-center items-center lg:pb-6">
+      <div className="flex flex-wrap justify-center items-center lg:pb-6 xl:gap-4">
         <div className="w-full h-64 overflow-hidden bg-black md:w-1/3 lg:h-80">
           <div>
             <Image
@@ -23,7 +23,7 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
               className="opacity-50"
             />
           </div>
-          <div className="absolute top-64 left-2 lg:w-1/3 lg:top-32 lg:left-96">
+          <div className="absolute top-64 left-2 max-w-lg lg:top-32 lg:left-60 xl:left-96">
             <p className="text-7xl text-white">{title}</p>
           </div>
         </div>

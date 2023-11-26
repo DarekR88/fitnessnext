@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
+import { MoreInfo } from "@/components/MoreInfo";
 import introImg from "../../../public/images/weights.jpg";
 
 export default function Contact() {
@@ -11,15 +12,9 @@ export default function Contact() {
       <IntroCard
         introImg={introImg}
         title="Contact"
-        blurb="Available 6am-11pm every day."
+        blurb="Available 6am-11pm every day"
       />
-      <div>
-        <p>phone: 123-456-789</p>
-      </div>
-      <div>
-        <p>E-mail: fitnass@fitnass.com</p>
-      </div>
-      
+      <MoreInfo />
     </>
   );
 }
