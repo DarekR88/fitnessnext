@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { MoreInfo } from "@/components/MoreInfo"
-import introImg from "../../../public/images/weights.jpg";
+import introImg from "../../../../public/images/weights.jpg";
 
 export default function Cardio() {
   return (
