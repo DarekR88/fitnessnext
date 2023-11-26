@@ -6,17 +6,16 @@ import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import introImg from "../../../public/images/weights.jpg";
 
-export default function Programs() {
+export default function Pricing() {
   return (
     <>
       <IntroCard
         introImg={introImg}
-        title="Services"
-        blurb="Exercise shouldn't feel like a chore. Making lifestyle choices that have a positive 
-        impact on your overall health and well being shouldn't be punishing. The fitness and nutrition 
-        programs from Maximum Fitness are flexible and easily fit in your busy schedule. Gyms are unfriendly and 
-        intimidating for people at the beginning of their fitness journey. With Maximum Fitness a highly skilled 
-        and educated personal trainer comes directly to you through video call, or in person."
+        title="Pricing"
+        blurb="Getting in shape is priceless, but at Maximum Fitness personal training won't break the bank. 
+        We offer unbeatable prices and the highest quality service. Pricing is based on in person training ($50 per session), 
+        or virtual training ($35 per session). Our process starts with a free evaluation, after your free evaluation our 
+        personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go."
       />
       <div className="flex flex-wrap w-full lg:justify-center lg:gap-12">
         <div className="lg:w-1/5">
