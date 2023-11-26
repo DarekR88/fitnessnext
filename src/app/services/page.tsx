@@ -37,8 +37,8 @@ export default function Programs() {
           <p className="mx-4 pb-4 pt-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
-            Maximum Fitness offers 1 on 1 training, and training for groups of 2
-            or more.
+            Maximum Fitness offers 1 on 1 training, and training for groups as
+            well.
           </p>
         </div>
         <div className="lg:w-1/5">
@@ -55,22 +55,33 @@ export default function Programs() {
       </div>
       <div className="text-center">
         <div>
-          <p>Programs</p>
+          <p className="text-xl">Programs</p>
         </div>
-        <div className="flex flex-wrap p-3 justify-center lg:gap-10">
+        <div className="flex flex-wrap p-3 justify-center lg:gap-20">
           <div>
-          <p>Stretching</p>
-          <p>Cardio</p>
-          <p>Yoga</p>
-          <p>Health and Wellness</p>
+            <p className="py-1">Stretching</p>
+            <p className="py-1">Cardio</p>
+            <p className="py-1">Yoga</p>
+            <p className="py-1">Health and Wellness</p>
           </div>
           <div>
-          <p>Strength Training</p>
-          <p>Weight Loss</p>
-          <p>Senior Fitness Programs</p>
-          <p>Youth Programs</p>
+            <p className="py-1">Strength Training</p>
+            <p className="py-1">Weight Loss</p>
+            <p className="py-1">Senior Fitness Programs</p>
+            <p className="py-1">Youth Programs</p>
           </div>
         </div>
+      </div>
+      <div className="text-center p-3">
+        <p className="text-xl">Nutrition</p>
+      </div>
+      <div>
+        <p className="mx-4 pb-4">
+          Nutrition is very important when it comes to reaching your fitness
+          goals. At Maximum Fitness we don't believe in crash dieting and binge
+          eating, our nutrition plans and cooking classes are designed to help
+          you live a healthier lifestyle and still eat delicious food.
+        </p>
       </div>
     </>
   );

@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <p className="mx-4 py-4">
             After you've been evaluated by one of our qualified personal
-            trainers, our cutting edge fitness AI will generate an exercise
+            trainers cutting edge fitness AI will generate an exercise
             program specific to your needs.
           </p>
         </div>
