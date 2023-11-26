@@ -12,7 +12,7 @@ export function MoreInfo() {
   return (
     <>
       <div className="text-center">
-        <p className="text-xl">
+        <p className="text-xl mx-4">
           For more information call, text, or message to get a free evaluation.
         </p>
         <div className="flex justify-center py-6">
