@@ -60,7 +60,9 @@ export default function Programs() {
         </div>
         <div className="flex flex-wrap p-3 justify-center lg:gap-20">
           <div>
-            <p className="py-1">Stretching</p>
+            <Link className="py-1" href="/stretching">
+              Stretching
+            </Link>
             <p className="py-1">Cardio</p>
             <p className="py-1">Yoga</p>
             <p className="py-1">Health and Wellness</p>
