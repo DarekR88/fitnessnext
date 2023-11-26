@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import introImg from "../../../public/images/weights.jpg";
@@ -73,15 +74,22 @@ export default function Programs() {
         </div>
       </div>
       <div className="text-center p-3">
-        <p className="text-xl">Nutrition</p>
+        <Link className="text-xl" href="/nutrition">
+          Nutrition
+        </Link>
       </div>
-      <div>
-        <p className="mx-4 pb-4">
+      <div className="w-full flex justify-center">
+        <p className="mx-4 pb-4 max-w-6xl">
           Nutrition is very important when it comes to reaching your fitness
           goals. At Maximum Fitness we don't believe in crash dieting and binge
           eating, our nutrition plans and cooking classes are designed to help
           you live a healthier lifestyle and still eat delicious food.
         </p>
+      </div>
+      <div className="text-center">
+        <Link className="text-xl" href="/nutrition">
+          More Info
+        </Link>
       </div>
     </>
   );

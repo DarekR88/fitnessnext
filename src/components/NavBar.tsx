@@ -38,6 +38,9 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-xl" href="/services">
           Services
         </Link>
+        <Link onClick={handleClick} className="text-xl" href="/nutrition">
+          Nutrition
+        </Link>
         <Link onClick={handleClick} className="text-xl" href="/contact">
           Contact
         </Link>
@@ -81,6 +84,9 @@ export function NavBar() {
           </Link>
           <Link className="text-xl" href="/services">
             Services
+          </Link>
+          <Link className="text-xl" href="/nutrition">
+            Nutrition
           </Link>
           <Link className="text-xl" href="/contact">
             Contact
