@@ -14,8 +14,12 @@ export default function Contact() {
         blurb="Available 6am-11pm every day."
       />
       <div>
-        <p></p>
+        <p>phone: 123-456-789</p>
       </div>
+      <div>
+        <p>E-mail: fitnass@fitnass.com</p>
+      </div>
+      
     </>
   );
 }

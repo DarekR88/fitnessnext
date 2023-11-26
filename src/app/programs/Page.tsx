@@ -47,15 +47,13 @@ export default function Programs() {
           </div>
           <p className="ml-3 pt-3">Hybrid</p>
           <p className="mx-4 pb-4 pt-2">
-            Life can be hectic, scheduling with Maximum Fitness is easy. To ensure a high
-            level of success our personal trainers are available to train you in
-            person or online based on your individual needs. 
+            Life can be hectic, scheduling with Maximum Fitness is easy. To
+            ensure a high level of success our personal trainers are available
+            to train you in person or online based on your individual needs.
           </p>
         </div>
       </div>
-      <div>
-
-      </div>
+      <div></div>
     </>
   );
 }

@@ -21,7 +21,7 @@ export default function Home() {
         title="Maximum Fitness"
         blurb="At Maximum Fitness your health and wellness are our priority. Our
           cutting edge training regiments and nutrition plans cover all the
-          bases when it comes to reaching your goals"
+          bases when it comes to reaching your goals."
       />
       <div className="flex flex-wrap w-full">
         <div className="lg:w-1/5">
