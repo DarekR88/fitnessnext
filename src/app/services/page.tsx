@@ -10,14 +10,14 @@ export default function Programs() {
     <>
       <IntroCard
         introImg={introImg}
-        title="Programs"
+        title="Services"
         blurb="Exercise shouldn't feel like a chore. Making lifestyle choices that have a positive 
         impact on your overall health and well being shouldn't be punishing. The fitness and nutrition 
         programs from Maximum Fitness are flexible and easily fit in your busy schedule. Gyms are unfriendly and 
         intimidating for people at the beginning of their fitness journey. With Maximum Fitness a highly skilled 
         and educated personal trainer comes directly to you through video call, or in person."
       />
-      <div className="flex flex-wrap w-full">
+      <div className="flex flex-wrap w-full lg:justify-center lg:gap-12">
         <div className="lg:w-1/5">
           <div>
             <Image src={introImg} alt="weights" width={500} />
@@ -53,7 +53,25 @@ export default function Programs() {
           </p>
         </div>
       </div>
-      <div></div>
+      <div className="text-center">
+        <div>
+          <p>Programs</p>
+        </div>
+        <div className="flex flex-wrap p-3 justify-center lg:gap-10">
+          <div>
+          <p>Stretching</p>
+          <p>Cardio</p>
+          <p>Yoga</p>
+          <p>Health and Wellness</p>
+          </div>
+          <div>
+          <p>Strength Training</p>
+          <p>Weight Loss</p>
+          <p>Senior Fitness Programs</p>
+          <p>Youth Programs</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
