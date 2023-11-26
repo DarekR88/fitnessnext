@@ -1,27 +1,16 @@
 "use client";
 
 import Image from "next/image";
-import React, { useState } from "react";
-import { IntroCard } from "@/components/IntroCard";
-import introImg from "../../../public/images/weights.jpg";
-import PhoneSvg from "../../../public/icons/phone-svgrepo-com.svg";
-import MailIcon from "../../../public/icons/mail_icon.svg";
-import XIcon from "../../../public/icons/twitter_icon.svg";
-import FacebookIcon from "../../../public/icons/facebook-svgrepo-com.svg";
-import InstaIcon from "../../../public/icons/instagram-svgrepo-com.svg";
-import TiktokIcon from "../../../public/icons/tiktok-logo-4512.svg";
+import MailIcon from "../../public/icons/mail_icon.svg";
+import XIcon from "../../public/icons/twitter_icon.svg";
+import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";
+import InstaIcon from "../../public/icons/instagram-svgrepo-com.svg";
+import TiktokIcon from "../../public/icons/tiktok-logo-4512.svg";
+import  PhoneSvg  from "../../public/icons/phone-svgrepo-com.svg"
 
-export default function Stretching() {
+export function MoreInfo() {
   return (
     <>
-      <IntroCard
-        introImg={introImg}
-        title="Stretching"
-        blurb="Feeling stiff? Want more mobility? Our stretching program is perfect for you. 
-        Our patented combination of active, dynamic, and weighted stretching is sure to loosen 
-        you up. This program is a great auxiliary for athletes looking to improve their longevity 
-        and overall wellness."
-      />
       <div className="text-center">
         <p className="text-xl">
           For more information call, text, or message to get a free evaluation.
