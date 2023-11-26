@@ -26,7 +26,9 @@ export default function Programs() {
             <Link className="py-1" href="/stretching">
               Stretching
             </Link>
-            <p className="py-1">Cardio</p>
+            <Link className="py-1" href="/cardio">
+              Cardio
+            </Link>
             <p className="py-1">Yoga</p>
             <p className="py-1">Health and Wellness</p>
           </div>
