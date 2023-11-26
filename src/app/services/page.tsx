@@ -58,22 +58,57 @@ export default function Programs() {
         <div>
           <p className="text-xl">Programs</p>
         </div>
-        <div className="flex flex-wrap p-3 justify-center lg:gap-20">
+        <div className="text-center">
+        <div>
+          <p className="text-xl">Click for more information</p>
+        </div>
+        <div className="flex flex-wrap p-1 justify-center lg:gap-20">
           <div>
-            <Link className="py-1" href="/stretching">
-              Stretching
-            </Link>
-            <p className="py-1">Cardio</p>
-            <p className="py-1">Yoga</p>
-            <p className="py-1">Health and Wellness</p>
+            <div  className="py-1">
+              <Link href="/programs/stretching">
+                Stretching
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/cardio">
+                Cardio
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/yoga">
+                Yoga
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/healthandwellness">
+                Health and Wellness
+              </Link>
+            </div>
           </div>
           <div>
-            <p className="py-1">Strength Training</p>
-            <p className="py-1">Weight Loss</p>
-            <p className="py-1">Senior Fitness Programs</p>
-            <p className="py-1">Youth Programs</p>
+          <div  className="py-1">
+              <Link href="/programs/strengthtraining">
+                Strength Training
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/weightloss">
+                Weight Loss
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/seniorfitness">
+                Senior Fitness
+              </Link>
+            </div>
+            <div  className="py-1">
+              <Link href="/programs/youthfitness">
+                Youth Programs
+              </Link>
+            </div>
           </div>
         </div>
+      </div>
       </div>
       <div className="text-center p-3">
         <Link className="text-xl" href="/nutrition">

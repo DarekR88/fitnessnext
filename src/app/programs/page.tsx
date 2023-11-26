@@ -21,7 +21,7 @@ export default function Programs() {
         <div>
           <p className="text-xl">Click for more information</p>
         </div>
-        <div className="flex flex-wrap p-3 justify-center lg:gap-20">
+        <div className="flex flex-wrap p-1 justify-center lg:gap-20">
           <div>
             <div  className="py-1">
               <Link href="/programs/stretching">
