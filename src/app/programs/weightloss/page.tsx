@@ -16,7 +16,7 @@ export default function WeightLoss() {
         trainers at Maximum Fitness are trained to be sensitive about your needs
         and firm about keeping you accountable. Whether your goal is to lose 20 
         pounds or 200, our personal trainers will have your back for every step 
-        of the way"
+        of the way."
       />
       <MoreInfo />
     </>
