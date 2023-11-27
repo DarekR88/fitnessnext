@@ -110,7 +110,7 @@ export default function Pricing() {
           you live a healthier lifestyle and still eat delicious food.
         </p>
       </div>
-      <div className="text-center">
+      <div className="text-center mb-6">
         <Link className="text-xl" href="/nutrition">
           More Info
         </Link>
