@@ -19,36 +19,34 @@ export default function Programs() {
       />
       <div className="text-center">
         <div>
-          <p className="text-xl">Click for more information</p>
+          <p className="text-2xl">Click for more information</p>
         </div>
-        <div className="flex flex-wrap p-1 justify-center lg:gap-20">
+        <div className="flex flex-wrap py-1 justify-between mx-8 lg:gap-20 lg:justify-center">
           <div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/stretching">Stretching</Link>
             </div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/cardio">Cardio</Link>
             </div>
-            <div className="py-1">
-              <Link href="/programs/healthandwellness">
-                Health and Wellness
-              </Link>
+            <div className="py-3 text-xl">
+              <Link href="/programs/healthandwellness">Health & Wellness</Link>
             </div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/yoga">Yoga</Link>
             </div>
           </div>
           <div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/strengthtraining">Strength Training</Link>
             </div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/weightloss">Weight Loss</Link>
             </div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/seniorfitness">Senior Fitness</Link>
             </div>
-            <div className="py-1">
+            <div className="py-3 text-xl">
               <Link href="/programs/youthfitness">Youth Programs</Link>
             </div>
           </div>

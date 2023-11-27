@@ -11,7 +11,7 @@ import XIcon from "../../public/icons/twitter_icon.svg";
 import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";
 import InstaIcon from "../../public/icons/instagram-svgrepo-com.svg";
 import TiktokIcon from "../../public/icons/tiktok-logo-4512.svg";
-import  PhoneSvg  from "../../public/icons/phone-svgrepo-com.svg"
+import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
 
 export function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,16 +48,27 @@ export function NavBar() {
           Contact
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row">
-        <Link href={"/"} className="font-Raleway text-xl z-0">Maximum Fitness</Link>
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row lg:justify-between lg:px-20 lg:h-28">
+      <a
+          href="tel:408-761-4606"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="lg:hidden"
+        >
+          <Image src={PhoneSvg} alt="pfp" width={23} />
+        </a>
+        <Link href={"/"} className="font-Raleway text-xl z-0 px-3">
+          Maximum Fitness
+        </Link>
         <a
-            href="tel:408-761-4606"
-            target="_blank"
-            rel="noreferrer noopener"
-            className="px-2"
-          >
-            <Image src={PhoneSvg} alt="pfp" width={23} />
-          </a>
+          href="tel:408-761-4606"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="hidden lg:inline lg:flex"
+        >
+          <Image src={PhoneSvg} alt="pfp" width={23} />
+          <span className="pl-1">Call Now!</span>
+        </a>
         <button
           onClick={handleClick}
           className="inline flex flex-col justify-center items-center z-20 lg:hidden"
