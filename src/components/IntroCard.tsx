@@ -23,7 +23,7 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
           />
         </div>
         <div className="md:w-1/4 lg:w-[600px]">
-          <div className="text-left ml-4">
+          <div className="text-center lg:text-left ml-4">
             <p className="text-3xl py-2">{title}</p>
           </div>
           <p className="mx-4 pb-4">{blurb}</p>
