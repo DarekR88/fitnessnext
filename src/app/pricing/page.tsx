@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
+import { FreeEval } from "@/components/FreeEval";
 import introImg from "../../../public/images/weights.jpg";
 
 export default function Pricing() {
@@ -18,6 +19,7 @@ export default function Pricing() {
         personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go. All sessions are 
         1 hour, longer sessions available upon request"
       />
+      <FreeEval />
       <div className="flex flex-wrap pb-6 lg:max-w-[1200px] lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
           <div>

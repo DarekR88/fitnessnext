@@ -6,6 +6,7 @@ import { Raleway } from "next/font/google";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { IntroCard } from "@/components/IntroCard";
+import { FreeEval } from "@/components/FreeEval";
 import WeightImg from "../../public/images/weights.jpg";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
           cutting edge training regiments and nutrition plans cover all the
           bases when it comes to reaching your goals."
       />
+      <FreeEval />
       <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
           <div>
