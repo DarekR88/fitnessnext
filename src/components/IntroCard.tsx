@@ -14,12 +14,11 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
   return (
     <>
       <div className="flex flex-wrap justify-center items-center lg:pb-6">
-        <div className="w-full h-64 overflow-hidden bg-black md:w-1/3 lg:w-[600px] lg:h-80">
+        <div className="w-full h-64 overflow-hidden lg:rounded-md md:w-1/3 lg:w-[600px] lg:h-80">
           <Image
             src={introImg}
             alt="weights"
             width={600}
-            className="opacity-50"
           />
         </div>
         <div className="md:w-1/4 lg:w-[600px]">

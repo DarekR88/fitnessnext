@@ -20,7 +20,7 @@ export default function Home() {
       />
       <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
           <p className="text-2xl ml-3 py-2">Free Evaluations</p>
@@ -31,7 +31,7 @@ export default function Home() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
           <p className="text-2xl ml-3 py-2">Skilled Trainers</p>
@@ -42,7 +42,7 @@ export default function Home() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
           <p className="text-2xl ml-3 py-2">Nutritional Science</p>

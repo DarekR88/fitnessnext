@@ -20,7 +20,7 @@ export default function Pricing() {
       />
       <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={introImg} alt="weights" width={500} />
           </div>
           <p className="text-xl ml-3 pt-3">Live Video Call Training</p>
@@ -32,7 +32,7 @@ export default function Pricing() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={introImg} alt="weights" width={500} />
           </div>
           <p className="text-xl ml-3 pt-3">In Person Training</p>
@@ -44,7 +44,7 @@ export default function Pricing() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+          <div className="rounded-md">
             <Image src={introImg} alt="weights" width={500} />
           </div>
           <p className="text-xl ml-3 pt-3">Group Pricing</p>
