@@ -98,7 +98,7 @@ export default function Pricing() {
         </div>
       </div>
       <div className="text-center p-3">
-        <Link className="text-xl" href="/nutrition">
+        <Link className="text-2xl" href="/nutrition">
           Nutrition
         </Link>
       </div>
