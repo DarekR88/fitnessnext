@@ -20,8 +20,8 @@ export default function Pricing() {
       />
       <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={introImg} alt="weights" width={500} />
+          <div>
+            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
           </div>
           <p className="text-xl ml-3 pt-3">Live Video Call Training</p>
           <p className="ml-3">$35 per Session</p>
@@ -32,8 +32,8 @@ export default function Pricing() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={introImg} alt="weights" width={500} />
+          <div>
+            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
           </div>
           <p className="text-xl ml-3 pt-3">In Person Training</p>
           <p className="ml-3">$50 per session</p>
@@ -44,8 +44,8 @@ export default function Pricing() {
           </p>
         </div>
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={introImg} alt="weights" width={500} />
+          <div>
+            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
           </div>
           <p className="text-xl ml-3 pt-3">Group Pricing</p>
           <p className="ml-3">Groups of 2 or more: $40 per person</p>
