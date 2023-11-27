@@ -18,7 +18,7 @@ export default function Pricing() {
         personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go. All sessions are 
         1 hour, longer sessions available upon request"
       />
-      <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between lg:pb-6">
+      <div className="flex flex-wrap pb-6 lg:max-w-[1200px] lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
           <div>
             <Image
@@ -35,7 +35,7 @@ export default function Pricing() {
             gyms or expensive equipment. Our personal trainers will ensure
             you're working out with proper form and keep you accountable.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Pricing() {
             beautiful park, or in home, our personal trainers will come to you.
             We bring all the equipment you'll need to get in shape.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
@@ -75,7 +75,7 @@ export default function Pricing() {
             it's easier to keep each other accountable. Group work outs are also
             great for team building and bringing people closer together.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
