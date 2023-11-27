@@ -23,28 +23,28 @@ export function NavBar() {
   return (
     <>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 ${
+        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
           isOpen
             ? "transition ease-in-out translate-y-0 duration-500"
             : "transition ease-in-out -translate-y-full duration-500"
         }`}
       >
-        <Link onClick={handleClick} className="text-xl" href="/">
+        <Link onClick={handleClick} className="text-3xl" href="/">
           Home
         </Link>
-        <Link onClick={handleClick} className="text-xl" href="/about">
+        <Link onClick={handleClick} className="text-3xl" href="/about">
           About
         </Link>
-        <Link onClick={handleClick} className="text-xl" href="/pricing">
+        <Link onClick={handleClick} className="text-3xl" href="/pricing">
           Pricing
         </Link>
-        <Link onClick={handleClick} className="text-xl" href="/programs">
+        <Link onClick={handleClick} className="text-3xl" href="/programs">
           Programs
         </Link>
-        <Link onClick={handleClick} className="text-xl" href="/nutrition">
+        <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
         </Link>
-        <Link onClick={handleClick} className="text-xl" href="/contact">
+        <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
         </Link>
       </div>
@@ -60,7 +60,7 @@ export function NavBar() {
           </a>
         <button
           onClick={handleClick}
-          className="flex flex-col justify-center items-center z-20 lg:hidden"
+          className="inline flex flex-col justify-center items-center z-20 lg:hidden"
         >
           <span
             className={`bg-black block transition-all duration-300 ease-out 
