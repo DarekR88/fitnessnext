@@ -18,41 +18,66 @@ export default function Pricing() {
         personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go. All sessions are 
         1 hour, longer sessions available upon request"
       />
-      <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between">
+      <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between lg:pb-6">
         <div className="lg:w-[375px]">
           <div>
-            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
+            <Image
+              src={introImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
           <p className="text-xl ml-3 pt-3">Live Video Call Training</p>
           <p className="ml-3">$35 per Session</p>
-          <p className="mx-4 pb-4 pt-2">
-            Get in shape from the comfort of your own home. Our personal
-            trainers will ensure you're working out with proper form and keep
-            you accountable.
+          <p className="mx-4 py-2">
+            Get in shape from the comfort of your own home. No need for crowded
+            gyms or expensive equipment. Our personal trainers will ensure
+            you're working out with proper form and keep you accountable.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
         </div>
         <div className="lg:w-[375px]">
           <div>
-            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
+            <Image
+              src={introImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
           <p className="text-xl ml-3 pt-3">In Person Training</p>
           <p className="ml-3">$50 per session</p>
-          <p className="mx-4 pb-4 pt-2">
+          <p className="mx-4 py-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
             We bring all the equipment you'll need to get in shape.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
         </div>
         <div className="lg:w-[375px]">
           <div>
-            <Image src={introImg} alt="weights" width={500} className="rounded-md" />
+            <Image
+              src={introImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
           <p className="text-xl ml-3 pt-3">Group Pricing</p>
           <p className="ml-3">Groups of 2 or more: $40 per person</p>
-          <p className="mx-4 pb-4 pt-2">
+          <p className="mx-4 py-2">
             Exercise can be a fun group activity. When working out in a group
-            it's easier to keep each other accountable.
+            it's easier to keep each other accountable. Group work outs are also
+            great for team building and bringing people closer together.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
         </div>
       </div>
       <div className="text-center">
