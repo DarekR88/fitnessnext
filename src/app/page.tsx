@@ -20,37 +20,67 @@ export default function Home() {
       />
       <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={WeightImg} alt="weights" width={500} />
+          <div>
+            <Image
+              src={WeightImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
-          <p className="text-2xl ml-3 py-2">Free Evaluations</p>
+          <div className="text-2xl ml-3 py-2">
+            <Link href={"/contact"}>Free Evaluations</Link>
+          </div>
           <p className="mx-4">
             Evaluations are completely free and can be done in person at the
-            location of your choosing, through video chat, or by phone. Your
-            comfort is key to the process.
+            location of your choosing, through video chat, or by phone. At
+            Maximum fitness we understand the first step can be the hardest.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/contact"}>More Info</Link>
+          </div>
         </div>
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={WeightImg} alt="weights" width={500} />
+          <div>
+            <Image
+              src={WeightImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
-          <p className="text-2xl ml-3 py-2">Skilled Trainers</p>
+          <div className="text-2xl ml-3 py-2">
+            <Link href={"/pricing"}>Affordable Pricing</Link>
+          </div>
           <p className="mx-4">
-            Our programs are formulated with the most cutting edge biomechanical
-            knowledge. All of our trainers are highly trained to get you to
-            where you want to be in terms of fitness and health.
+            At Maximum Fitness we believe personal training should be
+            affordable. At $50 for in person sessions and $35 for virtual
+            sessions we offer the most competitive prices in the industry.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/pricing"}>More Info</Link>
+          </div>
         </div>
         <div className="lg:w-[375px]">
-          <div className="rounded-md">
-            <Image src={WeightImg} alt="weights" width={500} />
+          <div>
+            <Image
+              src={WeightImg}
+              alt="weights"
+              width={500}
+              className="rounded-md"
+            />
           </div>
-          <p className="text-2xl ml-3 py-2">Nutritional Science</p>
+          <div className="text-2xl ml-3 py-2">
+            <Link href={"/programs"}>Cutting Edge Programs</Link>
+          </div>
           <p className="mx-4">
-            Nutrition is just as important as exercise when it comes to
-            achieving fitness goals. Meal plans, nutritional education, and
-            cooking guidance are all available from Ignition Fitness.
+            Maximum Fitness training programs are based on the most current
+            studies and kinesiological science. Our competitive pricing does not
+            effect our ability to provide the highest quality training.
           </p>
+          <div className="w-full text-center pt-3 text-2xl">
+            <Link href={"/programs"}>More Info</Link>
+          </div>
         </div>
       </div>
     </>
