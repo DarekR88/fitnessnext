@@ -63,7 +63,7 @@ export default function Pricing() {
           <div>
             <p className="text-xl">Click for more information</p>
           </div>
-          <div className="flex flex-wrap py-1 justify-between mx-8 lg:gap-20 lg:justify-center">
+          <div className="flex flex-wrap py-1 justify-between mx-4 lg:mx-8 lg:gap-20 lg:justify-center">
             <div>
               <div className="py-3 text-xl">
                 <Link href="/programs/stretching">Stretching</Link>
