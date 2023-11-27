@@ -93,6 +93,9 @@ export function NavBar() {
           ></span>
         </button>
         <div className="hidden lg:flex gap-4">
+          <Link className="text-xl" href="/">
+            Home
+          </Link>
           <Link className="text-xl" href="/about">
             About
           </Link>
@@ -109,7 +112,7 @@ export function NavBar() {
             Contact
           </Link>
         </div>
-        <div className="flex gap-8 px-2 mb-2 z-0">
+        <div className="flex gap-8 px-2 z-0">
           <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
