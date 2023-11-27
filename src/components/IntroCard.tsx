@@ -23,12 +23,12 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
               className="opacity-50"
             />
           </div>
-          <div className="absolute top-64 left-2 max-w-lg lg:top-32 lg:left-60 xl:left-96">
-            <p className="text-7xl text-white">{title}</p>
-          </div>
         </div>
         <div className="md:w-1/4">
-          <p className="mx-4 py-4">{blurb}</p>
+        <div className="text-center">
+          <p className="text-2xl py-2">{title}</p>
+        </div>
+          <p className="mx-4 pb-4">{blurb}</p>
         </div>
       </div>
     </>

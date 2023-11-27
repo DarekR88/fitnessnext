@@ -23,47 +23,33 @@ export default function Programs() {
         </div>
         <div className="flex flex-wrap p-1 justify-center lg:gap-20">
           <div>
-            <div  className="py-1">
-              <Link href="/programs/stretching">
-                Stretching
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/stretching">Stretching</Link>
             </div>
-            <div  className="py-1">
-              <Link href="/programs/cardio">
-                Cardio
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/cardio">Cardio</Link>
             </div>
-            <div  className="py-1">
-              <Link href="/programs/yoga">
-                Yoga
-              </Link>
-            </div>
-            <div  className="py-1">
+            <div className="py-1">
               <Link href="/programs/healthandwellness">
                 Health and Wellness
               </Link>
             </div>
+            <div className="py-1">
+              <Link href="/programs/yoga">Yoga</Link>
+            </div>
           </div>
           <div>
-          <div  className="py-1">
-              <Link href="/programs/strengthtraining">
-                Strength Training
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/strengthtraining">Strength Training</Link>
             </div>
-            <div  className="py-1">
-              <Link href="/programs/weightloss">
-                Weight Loss
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/weightloss">Weight Loss</Link>
             </div>
-            <div  className="py-1">
-              <Link href="/programs/seniorfitness">
-                Senior Fitness
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/seniorfitness">Senior Fitness</Link>
             </div>
-            <div  className="py-1">
-              <Link href="/programs/youthfitness">
-                Youth Programs
-              </Link>
+            <div className="py-1">
+              <Link href="/programs/youthfitness">Youth Programs</Link>
             </div>
           </div>
         </div>

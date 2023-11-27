@@ -23,8 +23,8 @@ export default function Home() {
           cutting edge training regiments and nutrition plans cover all the
           bases when it comes to reaching your goals."
       />
-      <div className="flex flex-wrap w-full">
-        <div className="lg:w-1/5">
+      <div className="flex flex-wrap w-full lg:max-w-screen-xl lg:justify-center lg:m-auto lg:justify-between">
+        <div className="lg:w-72">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -34,7 +34,7 @@ export default function Home() {
             comfort is key to the process.
           </p>
         </div>
-        <div className="lg:w-1/5">
+        <div className="lg:w-72">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -44,7 +44,7 @@ export default function Home() {
             program specific to your needs.
           </p>
         </div>
-        <div className="lg:w-1/5">
+        <div className="lg:w-72">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>

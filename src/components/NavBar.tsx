@@ -48,7 +48,7 @@ export function NavBar() {
           Contact
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 p-8 justify-center items-center w-screen lg:flex-row">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen lg:flex-row">
         <Link href={"/"} className="font-Raleway text-xl z-0">Maximum Fitness</Link>
         <a
             href="tel:408-761-4606"
