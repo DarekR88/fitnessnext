@@ -18,8 +18,8 @@ export default function Pricing() {
         personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go. All sessions are 
         1 hour, longer sessions available upon request"
       />
-      <div className="flex flex-wrap w-full lg:justify-center lg:gap-12">
-        <div className="lg:w-1/5">
+      <div className="flex flex-wrap lg:max-w-[1200px] lg:m-auto lg:justify-between">
+        <div className="lg:w-80">
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>
@@ -31,7 +31,7 @@ export default function Pricing() {
             you accountable.
           </p>
         </div>
-        <div className="lg:w-1/5">
+        <div className="lg:w-80">
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>
@@ -43,7 +43,7 @@ export default function Pricing() {
             We bring all the equipment you'll need to get in shape.
           </p>
         </div>
-        <div className="lg:w-1/5">
+        <div className="lg:w-80">
           <div>
             <Image src={introImg} alt="weights" width={500} />
           </div>

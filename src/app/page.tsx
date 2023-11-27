@@ -6,11 +6,6 @@ import { Raleway } from "next/font/google";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { IntroCard } from "@/components/IntroCard";
-import MailIcon from "../../public/icons/mail_icon.svg";
-import XIcon from "../../public/icons/twitter_icon.svg";
-import FacebookIcon from "../../public/icons/facebook-svgrepo-com.svg";
-import InstaIcon from "../../public/icons/instagram-svgrepo-com.svg";
-import TiktokIcon from "../../public/icons/tiktok-logo-4512.svg";
 import WeightImg from "../../public/images/weights.jpg";
 
 export default function Home() {
@@ -23,8 +18,8 @@ export default function Home() {
           cutting edge training regiments and nutrition plans cover all the
           bases when it comes to reaching your goals."
       />
-      <div className="flex flex-wrap w-full lg:max-w-screen-xl lg:justify-center lg:m-auto lg:justify-between">
-        <div className="lg:w-72">
+      <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
+        <div className="lg:w-80">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -34,7 +29,7 @@ export default function Home() {
             comfort is key to the process.
           </p>
         </div>
-        <div className="lg:w-72">
+        <div className="lg:w-80">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
@@ -44,7 +39,7 @@ export default function Home() {
             program specific to your needs.
           </p>
         </div>
-        <div className="lg:w-72">
+        <div className="lg:w-80">
           <div>
             <Image src={WeightImg} alt="weights" width={500} />
           </div>
