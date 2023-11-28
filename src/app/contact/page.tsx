@@ -19,7 +19,7 @@ export default function Contact() {
           href="tel:408-761-4606"
           target="_blank"
           rel="noreferrer noopener"
-          className="pb-3 text-2xl"
+          className="pb-3 text-2xl m-auto"
         >
           Phone:(123)-456-789
         </a>
@@ -27,7 +27,7 @@ export default function Contact() {
           href="mailto:darekradke2@gmail.com"
           target="_blank"
           rel="noreferrer noopener"
-          className="pb-3 text-2xl"
+          className="pb-3 text-2xl m-auto"
         >
           E-mail:MaximumFit@gmail.com
         </a>
