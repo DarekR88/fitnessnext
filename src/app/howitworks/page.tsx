@@ -31,7 +31,7 @@ export default function HowItWorks() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/contact"}>Free Evaluations</Link>
+            <Link href={"/contact"} className="font-semibold">Free Evaluations</Link>
           </div>
           <p className="mx-4">
             Evaluations let us know your fitness level and your goals. With that
@@ -40,7 +40,7 @@ export default function HowItWorks() {
             text, or e-mail. Maximum Fitness is here to help.
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -53,7 +53,7 @@ export default function HowItWorks() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/contact"}>Work Out At Home</Link>
+            <Link href={"/contact"} className="font-semibold">Work Out At Home</Link>
           </div>
           <p className="mx-4">
             Get fit in the comfort of your own home. There's no need to go to a
@@ -62,7 +62,7 @@ export default function HowItWorks() {
             motivated and accountable.
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -75,7 +75,7 @@ export default function HowItWorks() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/contact"}>Per Session Payments</Link>
+            <Link href={"/contact"} className="font-semibold">Per Session Payments</Link>
           </div>
           <p className="mx-4">
             Payments are taken per session at the beginning of the session. No
@@ -84,7 +84,7 @@ export default function HowItWorks() {
             and $50 for 1 hour in person session.
           </p>
           <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
       </div>

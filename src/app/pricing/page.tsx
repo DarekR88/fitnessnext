@@ -30,8 +30,8 @@ export default function Pricing() {
               className="rounded-md"
             />
           </div>
-          <p className="text-xl ml-3 pt-3">Live Video Call Training</p>
-          <p className="ml-3">$35 per Session</p>
+          <p className="text-xl ml-3 pt-3 font-semibold">Live Video Call Training</p>
+          <p className="ml-3 text-[18px]">$35/<span className="text-[15px] font-semibold">1hr.</span> per Session</p>
           <p className="mx-4 py-2">
             Get in shape from the comfort of your own home. No need for crowded
             gyms or expensive equipment. Our personal trainers will ensure
@@ -50,8 +50,8 @@ export default function Pricing() {
               className="rounded-md"
             />
           </div>
-          <p className="text-xl ml-3 pt-3">In Person Training</p>
-          <p className="ml-3">$50 per session</p>
+          <p className="text-xl ml-3 pt-3 font-semibold">In Person Training</p>
+          <p className="ml-3 text-[18px]">$50/<span className="text-[15px] font-semibold">1hr.</span> per session</p>
           <p className="mx-4 py-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
@@ -70,8 +70,8 @@ export default function Pricing() {
               className="rounded-md"
             />
           </div>
-          <p className="text-xl ml-3 pt-3">Group Pricing</p>
-          <p className="ml-3">Groups of 2 or more: $40 per person</p>
+          <p className="text-xl ml-3 pt-3 font-semibold">Group Pricing</p>
+          <p className="ml-3 text-[18px]">Groups of 2 or more: $40/<span className="text-[15px] font-semibold">1hr.</span> per person</p>
           <p className="mx-4 py-2">
             Exercise can be a fun group activity. When working out in a group
             it's easier to keep each other accountable. Group work outs are also
