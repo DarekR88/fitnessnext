@@ -82,13 +82,13 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="text-center pt-8">
         <div>
           <p className="text-2xl">Programs</p>
         </div>
         <div className="text-center">
           <div>
-            <p className="text-xl">Click for more information</p>
+            <p className="text-xl pt-3">Click for more information</p>
           </div>
           <div className="flex flex-wrap py-1 justify-between mx-4 lg:mx-8 lg:gap-20 lg:justify-center">
             <div>
@@ -124,7 +124,7 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="text-center p-3">
+      <div className="text-center pb-3 pt-8">
         <Link className="text-2xl" href="/nutrition">
           Nutrition
         </Link>

@@ -21,7 +21,7 @@ export default function Home() {
           comes to reaching your goals."
       />
       <FreeEval />
-      <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
+      <div className="flex flex-wrap pb-3 w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
           <div>
             <Image
@@ -39,7 +39,7 @@ export default function Home() {
             location of your choosing, through video chat, or by phone. At
             Maximum fitness we understand the first step can be the hardest.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
             <Link href={"/contact"}>More Info</Link>
           </div>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
             affordable. At $50 for in person sessions and $35 for virtual
             sessions we offer the most competitive prices in the industry.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
             <Link href={"/pricing"}>More Info</Link>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function Home() {
             studies and kinesiological science. Our competitive pricing does not
             effect our ability to provide the highest quality training.
           </p>
-          <div className="w-full text-center pt-3 text-2xl">
+          <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
             <Link href={"/programs"}>More Info</Link>
           </div>
         </div>
