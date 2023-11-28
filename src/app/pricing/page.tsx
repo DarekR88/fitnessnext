@@ -37,7 +37,7 @@ export default function Pricing() {
             gyms or expensive equipment. Our personal trainers will ensure
             you're working out with proper form and keep you accountable.
           </p>
-          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
+          <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
@@ -57,7 +57,7 @@ export default function Pricing() {
             beautiful park, or in home, our personal trainers will come to you.
             We bring all the equipment you'll need to get in shape.
           </p>
-          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
+          <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
@@ -77,12 +77,12 @@ export default function Pricing() {
             it's easier to keep each other accountable. Group work outs are also
             great for team building and bringing people closer together.
           </p>
-          <div className="w-full text-center pb-3 pt-3 text-2xl lg:pb-0">
+          <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
       </div>
-      <div className="text-center pt-8">
+      <div className="text-center">
         <div>
           <p className="text-2xl">Programs</p>
         </div>
