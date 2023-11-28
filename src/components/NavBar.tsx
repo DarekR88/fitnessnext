@@ -70,7 +70,16 @@ export function NavBar() {
           className="hidden lg:inline lg:flex"
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
-          <span className="pl-1">Call Now!</span>
+          <span className="pl-1">Call or Text</span>
+        </a>
+        <a
+          href="mailto:darekradke2@gmail.com"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="hidden lg:inline lg:flex"
+        >
+          <Image src={MailIcon} alt="pfp" width={25} />
+          <span className="pl-1">E-mail</span>
         </a>
         <button
           onClick={handleClick}
@@ -124,13 +133,6 @@ export function NavBar() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <Image src={MailIcon} alt="pfp" width={25} />
-          </a>
-          <a
-            href="mailto:darekradke2@gmail.com"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
             <Image src={InstaIcon} alt="pfp" width={27} />
           </a>
           <a
@@ -140,13 +142,13 @@ export function NavBar() {
           >
             <Image src={FacebookIcon} alt="pfp" width={25} />
           </a>
-          <a
+          {/* <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
             rel="noreferrer noopener"
           >
             <Image src={XIcon} alt="pfp" width={23} />
-          </a>
+          </a> */}
           <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"

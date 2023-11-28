@@ -46,13 +46,13 @@ export function MoreInfo() {
             >
               <Image src={FacebookIcon} alt="pfp" width={25} />
             </a>
-            <a
+            {/* <a
               href="mailto:darekradke2@gmail.com"
               target="_blank"
               rel="noreferrer noopener"
             >
               <Image src={XIcon} alt="pfp" width={23} />
-            </a>
+            </a> */}
             <a
               href="mailto:darekradke2@gmail.com"
               target="_blank"
