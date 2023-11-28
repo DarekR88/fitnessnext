@@ -32,8 +32,8 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/">
           Home
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/about">
-          About
+        <Link onClick={handleClick} className="text-3xl" href="/howitworks">
+          How it Works
         </Link>
         <Link onClick={handleClick} className="text-3xl" href="/pricing">
           Pricing
@@ -43,6 +43,9 @@ export function NavBar() {
         </Link>
         <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
+        </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/about">
+          About
         </Link>
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
@@ -92,23 +95,26 @@ export function NavBar() {
                     }`}
           ></span>
         </button>
-        <div className="hidden lg:flex gap-4">
-          <Link className="text-xl" href="/">
+        <div className="hidden lg:flex gap-6">
+          <Link className="text-l" href="/">
             Home
           </Link>
-          <Link className="text-xl" href="/about">
-            About
+          <Link className="text-l" href="/howitworks">
+            How it Works
           </Link>
-          <Link className="text-xl" href="/pricing">
+          <Link className="text-l" href="/pricing">
             Pricing
           </Link>
-          <Link className="text-xl" href="/programs">
+          <Link className="text-l" href="/programs">
             Programs
           </Link>
-          <Link className="text-xl" href="/nutrition">
+          <Link className="text-l" href="/nutrition">
             Nutrition
           </Link>
-          <Link className="text-xl" href="/contact">
+          <Link className="text-l" href="/about">
+            About
+          </Link>
+          <Link className="text-l" href="/contact">
             Contact
           </Link>
         </div>
