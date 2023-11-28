@@ -20,7 +20,7 @@ export default function Pricing() {
         1 hour, longer sessions available upon request"
       />
       <FreeEval />
-      <div className="flex flex-wrap pb-6 lg:max-w-[1200px] lg:m-auto lg:justify-between">
+      <div className="flex flex-wrap pb-12 lg:max-w-[1200px] lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
           <div>
             <Image
@@ -77,12 +77,13 @@ export default function Pricing() {
             it's easier to keep each other accountable. Group work outs are also
             great for team building and bringing people closer together.
           </p>
-          <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
+          <div className="w-full text-center lg:pb-10 pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
       </div>
-      <div className="text-center">
+      <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
+      <div className="text-center py-12">
         <div>
           <p className="text-2xl">Programs</p>
         </div>
@@ -124,7 +125,8 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="text-center pb-3 pt-8">
+      <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
+      <div className="text-center pb-3 pt-12">
         <Link className="text-2xl" href="/nutrition">
           Nutrition
         </Link>
