@@ -16,7 +16,7 @@ export default function Home() {
         introImg={WeightImg}
         title="Maximum Fitness"
         blurb="At Maximum Fitness your health and wellness are our priority. 
-          We have the best personal trainers in Houston and our cutting edge 
+          We have the most dedicated personal trainers in Houston and our cutting edge 
           training regiments and nutrition plans cover all the bases when it 
           comes to reaching your goals."
       />

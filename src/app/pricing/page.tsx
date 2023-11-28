@@ -77,7 +77,7 @@ export default function Pricing() {
             it's easier to keep each other accountable. Group work outs are also
             great for team building and bringing people closer together.
           </p>
-          <div className="w-full text-center lg:pb-10 pt-3 text-2xl lg:pb-0">
+          <div className="w-full text-center pt-3 text-2xl lg:pb-0">
             <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
