@@ -18,7 +18,9 @@ export default function About() {
         instill good habits and make working out and maintaining a healthy
         lifestyle a fun experience."
       />
-      <div className="h-[100px]"></div>
+      <div className="h-[100px]">
+        <p>Our Story</p>
+      </div>
     </>
   );
 }

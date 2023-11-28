@@ -38,7 +38,7 @@ export default function Pricing() {
             you're working out with proper form and keep you accountable.
           </p>
           <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -58,7 +58,7 @@ export default function Pricing() {
             We bring all the equipment you'll need to get in shape.
           </p>
           <div className="w-full text-center pb-10 pt-3 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -78,18 +78,18 @@ export default function Pricing() {
             great for team building and bringing people closer together.
           </p>
           <div className="w-full text-center pt-3 text-2xl lg:pb-0">
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="font-semibold">Schedule Now</Link>
           </div>
         </div>
       </div>
       <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
       <div className="text-center py-12">
         <div>
-          <p className="text-2xl">Programs</p>
+          <p className="text-2xl font-semibold">Programs</p>
         </div>
         <div className="text-center">
           <div>
-            <p className="text-xl pt-3">Click for more information</p>
+            <Link href={"/programs"} className="text-xl pt-3 font-medium">Click for more information</Link>
           </div>
           <div className="flex flex-wrap py-1 justify-between mx-4 lg:mx-8 lg:gap-20 lg:justify-center">
             <div>
@@ -127,7 +127,7 @@ export default function Pricing() {
       </div>
       <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
       <div className="text-center pb-3 pt-12">
-        <Link className="text-2xl" href="/nutrition">
+        <Link className="text-2xl font-semibold" href="/nutrition">
           Nutrition
         </Link>
       </div>
@@ -140,7 +140,7 @@ export default function Pricing() {
         </p>
       </div>
       <div className="text-center">
-        <Link className="text-xl" href="/nutrition">
+        <Link className="text-xl font-semibold" href="/nutrition">
           More Info
         </Link>
       </div>

@@ -32,7 +32,7 @@ export default function Home() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/contact"}>Free Evaluations</Link>
+            <Link href={"/contact"} className="font-semibold">Free Evaluations</Link>
           </div>
           <p className="mx-4">
             Evaluations are completely free and can be done in person at the
@@ -40,7 +40,7 @@ export default function Home() {
             Maximum fitness we understand the first step can be the hardest.
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-            <Link href={"/contact"}>More Info</Link>
+            <Link href={"/contact"} className="font-semibold">More Info</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -53,7 +53,7 @@ export default function Home() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/pricing"}>Affordable Pricing</Link>
+            <Link href={"/pricing"} className="font-semibold">Affordable Pricing</Link>
           </div>
           <p className="mx-4">
             At Maximum Fitness we believe personal training should be
@@ -61,7 +61,7 @@ export default function Home() {
             sessions we offer the most competitive prices in the industry.
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-            <Link href={"/pricing"}>More Info</Link>
+            <Link href={"/pricing"} className="font-semibold">More Info</Link>
           </div>
         </div>
         <div className="lg:w-[375px]">
@@ -74,7 +74,7 @@ export default function Home() {
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/programs"}>Cutting Edge Programs</Link>
+            <Link href={"/programs"} className="font-semibold">Cutting Edge Programs</Link>
           </div>
           <p className="mx-4">
             Maximum Fitness training programs are based on the most current
@@ -82,7 +82,7 @@ export default function Home() {
             effect our ability to provide the highest quality training.
           </p>
           <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
-            <Link href={"/programs"}>More Info</Link>
+            <Link href={"/programs"} className="font-semibold">More Info</Link>
           </div>
         </div>
       </div>
