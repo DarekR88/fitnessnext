@@ -131,7 +131,7 @@ export default function Pricing() {
           Nutrition
         </Link>
       </div>
-      <div className="w-screen flex flex-col justify-center m-auto">
+      <div className="w-screen flex flex-col justify-center m-auto lg:max-w-[1200px]">
         <p className="mx-4 pb-3 max-w-6xl">
           Nutrition is very important when it comes to reaching your fitness
           goals. At Maximum Fitness we don't believe in crash dieting and binge
