@@ -38,12 +38,12 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/pricing">
           Pricing
         </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/programs">
+        {/* <Link onClick={handleClick} className="text-3xl" href="/programs">
           Programs
-        </Link>
-        <Link onClick={handleClick} className="text-3xl" href="/nutrition">
+        </Link> */}
+        {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
-        </Link>
+        </Link> */}
         <Link onClick={handleClick} className="text-3xl" href="/about">
           About
         </Link>
@@ -114,12 +114,12 @@ export function NavBar() {
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/pricing">
             Pricing
           </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/programs">
+          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/programs">
             Programs
-          </Link>
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/nutrition">
+          </Link> */}
+          {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/nutrition">
             Nutrition
-          </Link>
+          </Link> */}
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
             About
           </Link>
