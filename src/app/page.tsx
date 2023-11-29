@@ -78,7 +78,7 @@ export default function Home() {
           </div>
           <p className="mx-4">
             Maximum Fitness training programs are based on the most current
-            studies and kinesiological science. Our competitive pricing does not
+            studies and kinesiology. Our competitive pricing does not
             effect our ability to provide the highest quality training.
           </p>
           <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">

@@ -31,7 +31,7 @@ export default function Pricing() {
             />
           </div>
           <p className="text-xl ml-3 pt-3 font-semibold">Live Video Call Training</p>
-          <p className="ml-3 text-[18px]">$35/<span className="text-[15px] font-semibold">1hr.</span> per Session</p>
+          <p className="ml-3 text-[18px]">$35/<span className="text-[15px] font-semibold">1hr.</span></p>
           <p className="mx-4 py-2">
             Get in shape from the comfort of your own home. No need for crowded
             gyms or expensive equipment. Our personal trainers will ensure
@@ -51,7 +51,7 @@ export default function Pricing() {
             />
           </div>
           <p className="text-xl ml-3 pt-3 font-semibold">In Person Training</p>
-          <p className="ml-3 text-[18px]">$50/<span className="text-[15px] font-semibold">1hr.</span> per session</p>
+          <p className="ml-3 text-[18px]">$50/<span className="text-[15px] font-semibold">1hr.</span></p>
           <p className="mx-4 py-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
@@ -131,13 +131,14 @@ export default function Pricing() {
           Nutrition
         </Link>
       </div>
-      <div className="w-full flex justify-center">
-        <p className="mx-4 pb-4 max-w-6xl">
+      <div className="w-screen flex flex-col justify-center m-auto">
+        <p className="mx-4 pb-3 max-w-6xl">
           Nutrition is very important when it comes to reaching your fitness
           goals. At Maximum Fitness we don't believe in crash dieting and binge
           eating, our nutrition plans and cooking classes are designed to help
-          you live a healthier lifestyle and still eat delicious food.
+          you live a healthier lifestyle and still eat delicious food. 
         </p>
+        <p className="text-center pb-3 mx-6">1 month of lifestyle guidance and nutrition plan $300</p>
       </div>
       <div className="text-center">
         <Link className="text-xl font-semibold" href="/nutrition">
