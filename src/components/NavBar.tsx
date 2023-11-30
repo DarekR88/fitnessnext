@@ -47,6 +47,9 @@ export function NavBar() {
         <Link onClick={handleClick} className="text-3xl" href="/about">
           About
         </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/testimonials">
+          Testimonials
+        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
         </Link>
@@ -122,6 +125,9 @@ export function NavBar() {
           </Link> */}
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
             About
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/testimonials">
+            Testimonials
           </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
