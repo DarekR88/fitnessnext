@@ -12,7 +12,7 @@ export default function Contact() {
       <IntroCard
         introImg={introImg}
         title="Contact"
-        blurb="Available 6am-11pm every day
+        blurb="Available 6am-11pm every day.
               Serving Houston and most suburbs"
       />
       <div className="text-center flex flex-col">
