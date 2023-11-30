@@ -49,11 +49,11 @@ export default function Testimonials() {
         </div>
         <div className="lg:w-[800px] text-center pt-6 px-3">
           <p>Jane Doe</p>
-          <p>
-            I lost 5 million pounds and became black. i would definitely
+          <p className="text-left">
+            "I lost 5 million pounds and became black. i would definitely
             recommend Maximum Fitness for all your personal training needs. My
             personal trainer was invaluable to my fitness journey and was always
-            on time.
+            on time."
           </p>
         </div>
       </div>
