@@ -24,7 +24,11 @@ export default function Testimonials() {
         let our clients' results speak for themselves."
       />
       <FreeEval />
-      <div className="flex max-w-[1200px] m-auto">
+      <p className="hidden lg:inline lg:ml-[300px] xl:ml-[400px]">Click to reveal results!</p>
+      <div className="flex flex-col max-w-[1200px] m-auto lg:flex-row">
+        <p className="text-3xl text-center pb-2 lg:hidden">
+          Tap to reveal results!
+        </p>
         <div className="flex w-[400px]">
           <div
             onClick={handleClick}
@@ -43,11 +47,13 @@ export default function Testimonials() {
             <Image src={skinnyImg} alt="skinny" className="h-[450px]" />
           </div>
         </div>
-        <div className="w-[800px]">
+        <div className="lg:w-[800px] text-center pt-6 px-3">
           <p>Jane Doe</p>
           <p>
             I lost 5 million pounds and became black. i would definitely
-            recommend Maximum Fitness for all your personal training needs.
+            recommend Maximum Fitness for all your personal training needs. My
+            personal trainer was invaluable to my fitness journey and was always
+            on time.
           </p>
         </div>
       </div>
