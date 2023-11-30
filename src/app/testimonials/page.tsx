@@ -5,6 +5,8 @@ import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { FreeEval } from "@/components/FreeEval";
 import introImg from "../../../public/images/weights.jpg";
+import fatImg from "../../../public/images/jade-destiny-w6APf4aCmns-unsplash.jpg";
+import skinnyImg from "../../../public/images/vladimir-yelizarov-C43tCJffOh4-unsplash.jpg";
 
 export default function Testimonials() {
   const [isActive, setActiveImage] = React.useState(true);
@@ -26,19 +28,19 @@ export default function Testimonials() {
         <div className="flex w-[400px]">
           <div
             onClick={handleClick}
-            className={`lg:h-[450px] border border-red-600 ${
+            className={`lg:h-[450px] border border-red-600 overflow-hidden ${
               isActive ? "w-4/5" : "w-1/5"
             }`}
           >
-            <p>before</p>
+            <Image src={fatImg} alt="fat" className="h-[450px]" />
           </div>
           <div
             onClick={handleClick}
-            className={`lg:h-[450px] border border-green-600 ${
+            className={`lg:h-[450px] border border-green-600 overflow-hidden ${
               isActive ? "w-1/5" : "w-4/5"
             }`}
           >
-            <p>after</p>
+            <Image src={skinnyImg} alt="skinny" className="h-[450px]" />
           </div>
         </div>
         <div className="w-[800px]">
