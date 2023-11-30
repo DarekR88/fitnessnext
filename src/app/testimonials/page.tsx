@@ -28,7 +28,7 @@ export default function Testimonials() {
         <div className="flex w-[400px]">
           <div
             onClick={handleClick}
-            className={`lg:h-[450px] border border-red-600 overflow-hidden ${
+            className={`lg:h-[450px] border border-red-600 overflow-hidden transition-all duration-300 ease-in-out ${
               isActive ? "w-4/5" : "w-1/5"
             }`}
           >
@@ -36,7 +36,7 @@ export default function Testimonials() {
           </div>
           <div
             onClick={handleClick}
-            className={`lg:h-[450px] border border-green-600 overflow-hidden ${
+            className={`lg:h-[450px] border border-green-600 overflow-hidden transition-all duration-300 ease-in-out ${
               isActive ? "w-1/5" : "w-4/5"
             }`}
           >
