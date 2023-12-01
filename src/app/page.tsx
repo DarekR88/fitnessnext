@@ -24,7 +24,7 @@ export default function Home() {
       <div className="flex flex-wrap pb-3 w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
         <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-button-secondary lg:z-0 lg:rounded-md"></div>
-          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
+          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100 lg:hover:scale-105">
             <Image
               src={WeightImg}
               alt="weights"
@@ -46,7 +46,7 @@ export default function Home() {
         </div>
         <div className="lg:w-[375px]">
         <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-button-primary lg:z-0 lg:rounded-md"></div>
-          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
+          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100 lg:hover:scale-105">
             <Image
               src={WeightImg}
               alt="weights"
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
         <div className="lg:w-[375px]">
         <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-bg-secondary lg:z-0 lg:rounded-md"></div>
-          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
+          <div className="lg:relative lg:-mt-[250px] z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100 lg:hover:scale-105">
             <Image
               src={WeightImg}
               alt="weights"

@@ -89,7 +89,7 @@ export default function Pricing() {
         </div>
         <div className="text-center">
           <div>
-            <Link href={"/programs"} className="text-xl pt-3 font-medium">Click for more information</Link>
+            <Link href={"/programs"} className="text-xl pt-3 font-medium"><span className="lg:hidden">Tap</span><span className="hidden lg:inline">Click</span> for more information</Link>
           </div>
           <div className="flex flex-wrap py-1 justify-between mx-4 lg:mx-8 lg:gap-20 lg:justify-center">
             <div>
