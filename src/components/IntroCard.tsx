@@ -14,7 +14,7 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
   return (
     <>
       <div className="flex flex-wrap justify-center lg:py-6">
-        <div className="w-full h-64 overflow-hidden md:w-1/3 lg:w-[600px] lg:h-80 lg:rounded-l-md">
+        <div className="w-full max-h-max overflow-hidden md:w-1/3 lg:w-[600px] lg:h-80 lg:rounded-l-md">
           <Image
             src={introImg}
             alt="weights"
