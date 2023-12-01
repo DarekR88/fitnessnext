@@ -23,7 +23,7 @@ export function NavBar() {
   return (
     <>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-white text-center pt-20 gap-8 ${
+        className={`fixed flex flex-col w-screen h-screen z-10 bg-bg-primary text-center pt-20 gap-8 ${
           isOpen
             ? "transition ease-in-out translate-y-0 duration-500"
             : "transition ease-in-out -translate-y-full duration-500"
