@@ -82,8 +82,8 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
-      <div className="text-center py-12">
+      {/* <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div> */}
+      <div className="text-center py-12 bg-button-secondary text-font-secondary lg:w-[1200px] m-auto lg:rounded-md">
         <div>
           <p className="text-2xl font-semibold">Programs</p>
         </div>
@@ -125,7 +125,7 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div>
+      {/* <div className="w-2/3 lg:max-w-[1200px] h-1 bg-black rounded-md m-auto"></div> */}
       <div className="text-center pb-3 pt-12">
         <Link className="text-2xl font-semibold" href="/nutrition">
           Nutrition
