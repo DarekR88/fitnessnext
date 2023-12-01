@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
+import { FreeEval } from "@/components/FreeEval";
 import introImg from "../../../public/images/weights.jpg";
 
 export default function About() {
@@ -18,6 +19,7 @@ export default function About() {
         instill good habits and make working out and maintaining a healthy
         lifestyle a fun experience."
       />
+      <FreeEval />
       <div className="h-[100px] text-center">
         <p>Our Story</p>
       </div>
