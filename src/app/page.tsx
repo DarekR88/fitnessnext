@@ -23,7 +23,8 @@ export default function Home() {
       <FreeEval />
       <div className="flex flex-wrap pb-3 w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
         <div className="lg:w-[375px]">
-          <div>
+        <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-bg-secondary lg:left-3 lg:top-[10px] lg:z-0 lg:rounded-md"></div>
+          <div className="lg:relative lg:-mt-[250px] z-10">
             <Image
               src={WeightImg}
               alt="weights"
@@ -44,7 +45,8 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+        <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-bg-secondary lg:left-3 lg:top-[10px] lg:z-0 lg:rounded-md"></div>
+          <div className="lg:relative lg:-mt-[250px] z-10">
             <Image
               src={WeightImg}
               alt="weights"
@@ -65,7 +67,8 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:w-[375px]">
-          <div>
+        <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[375px] lg:bg-bg-secondary lg:left-3 lg:top-[10px] lg:z-0 lg:rounded-md"></div>
+          <div className="lg:relative lg:-mt-[250px] z-10">
             <Image
               src={WeightImg}
               alt="weights"
@@ -73,7 +76,7 @@ export default function Home() {
               className="rounded-md"
             />
           </div>
-          <div className="text-2xl ml-3 py-2">
+          <div className="text-2xl ml-3 py-2 z-10">
             <Link href={"/programs"} className="font-semibold">Cutting Edge Programs</Link>
           </div>
           <p className="mx-4">
