@@ -24,6 +24,7 @@ const config: Config = {
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],
+        BebasNeue: ["Bebas Neue", "sans-serif"],
       },
     },
   },

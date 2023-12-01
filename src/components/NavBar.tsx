@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-import { Raleway } from "next/font/google";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 import { BurgerMenu } from "@/components/BurgerMenu";
