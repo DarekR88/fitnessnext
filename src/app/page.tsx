@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <p className="mx-4">
             At Maximum Fitness we believe personal training should be
-            affordable. At $65 for in person sessions and $40 for video call
+            affordable. At $65/<span className="text-sm">hr.</span> for in person sessions and $40/<span className="text-sm">hr.</span> for video call
             sessions we offer the most competitive prices in the industry.
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
