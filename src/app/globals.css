@@ -6,4 +6,9 @@
 
 :root {
   --bg-primary: #FFFFFF;
+  --bg-secondary: #1C7293;
+  --font-primary: #0A090B;
+  --font-secondary: #FFFFFF;
+  --button-primary: #BA2D0B;
+  --button-secondary: #65B891; 
 }
