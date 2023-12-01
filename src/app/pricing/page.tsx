@@ -14,8 +14,8 @@ export default function Pricing() {
         introImg={introImg}
         title="Pricing"
         blurb="Getting in shape is priceless, but at Maximum Fitness personal training won't break the bank. 
-        We offer unbeatable prices and the highest quality service. Pricing is based on in person training ($50 per session), 
-        or virtual training ($35 per session). Our process starts with a free evaluation, after your free evaluation our 
+        We offer unbeatable prices and the highest quality service. Pricing is based on in person training ($65/hr. per session), 
+        or virtual training ($40/1hr. per session). Our process starts with a free evaluation, after your free evaluation our 
         personal trainers will suggest a program that fits your needs. No monthly fees, pay as you go. All sessions are 
         1 hour, longer sessions available upon request"
       />
@@ -31,7 +31,7 @@ export default function Pricing() {
             />
           </div>
           <p className="text-xl ml-3 pt-3 font-semibold">Live Video Call Training</p>
-          <p className="ml-3 text-[18px]">$35/<span className="text-[15px] font-semibold">1hr.</span></p>
+          <p className="ml-3 text-[18px]">$40/<span className="text-[15px] font-semibold">1hr.</span></p>
           <p className="mx-4 py-2">
             Get in shape from the comfort of your own home. No need for crowded
             gyms or expensive equipment. Our personal trainers will ensure
@@ -51,7 +51,7 @@ export default function Pricing() {
             />
           </div>
           <p className="text-xl ml-3 pt-3 font-semibold">In Person Training</p>
-          <p className="ml-3 text-[18px]">$50/<span className="text-[15px] font-semibold">1hr.</span></p>
+          <p className="ml-3 text-[18px]">$65/<span className="text-[15px] font-semibold">1hr.</span></p>
           <p className="mx-4 py-2">
             In person training can happen anywhere. At your local gym, a
             beautiful park, or in home, our personal trainers will come to you.
