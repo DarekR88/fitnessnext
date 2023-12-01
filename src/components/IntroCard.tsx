@@ -13,15 +13,15 @@ type IntroCardProps = {
 export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
   return (
     <>
-      <div className="flex flex-wrap justify-center lg:pb-6">
-        <div className="w-full h-64 overflow-hidden lg:rounded-md md:w-1/3 lg:w-[600px] lg:h-80">
+      <div className="flex flex-wrap justify-center lg:py-6">
+        <div className="w-full h-64 overflow-hidden md:w-1/3 lg:w-[600px] lg:h-80 lg:rounded-l-md">
           <Image
             src={introImg}
             alt="weights"
             width={600}
           />
         </div>
-        <div className="md:w-1/4 lg:pt-[20px] lg:w-[600px]">
+        <div className="md:w-1/4 lg:pt-[20px] lg:w-[600px] bg-bg-secondary text-font-secondary rounded-r-md">
           <div className="text-center lg:text-left ml-4">
             <p className="text-3xl py-2 font-semibold">{title}</p>
           </div>
