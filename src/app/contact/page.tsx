@@ -14,7 +14,7 @@ export default function Contact() {
         title="Contact"
         blurb="Available 6am-11pm every day. Serving Houston and most suburbs"
       />
-      <div className="text-center flex flex-col pt-3 lg:pt-0">
+      <div className="text-center flex flex-col pt-3 lg:pt-0 bg-button-secondary max-w-[1200px] m-auto lg:pt-6 lg:pb-6 lg:rounded-md">
         <a
           href="tel:408-761-4606"
           target="_blank"
