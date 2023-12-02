@@ -16,7 +16,7 @@ type ThreeTilesProps = {
   T3Link: string,
 }
 
-export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3Img, T3Title, T3Link, }) {
+export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3Img, T3Title, T3Link, }: ThreeTilesProps) {
   return (
     <>
       <div>
@@ -32,7 +32,7 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
             />
           </div>
           <div className="text-2xl ml-3 py-2">
-            <Link href={"/contact"} className="font-semibold">
+            <Link href={`/${T1Link}`} className="font-semibold">
               Free Evaluations
             </Link>
           </div>
