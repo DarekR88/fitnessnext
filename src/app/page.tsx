@@ -53,12 +53,14 @@ export default function Home() {
         <div className="lg:w-[390px]">
           <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
           <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
-            <Image
-              src={WeightImg}
-              alt="weights"
-              width={500}
-              className="rounded-md"
-            />
+          <Link href={"/contact"} className="font-semibold">
+              <Image
+                src={WeightImg}
+                alt="weights"
+                width={500}
+                className="rounded-md"
+              />
+            </Link>
           </div>
           <div className="text-2xl ml-3 py-2">
             <Link href={"/pricing"} className="font-semibold">
@@ -81,12 +83,14 @@ export default function Home() {
         <div className="lg:w-[390px]">
           <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
           <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
-            <Image
-              src={WeightImg}
-              alt="weights"
-              width={500}
-              className="rounded-md"
-            />
+          <Link href={"/contact"} className="font-semibold">
+              <Image
+                src={WeightImg}
+                alt="weights"
+                width={500}
+                className="rounded-md"
+              />
+            </Link>
           </div>
           <div className="text-2xl ml-3 py-2 z-10">
             <Link href={"/programs"} className="font-semibold">
