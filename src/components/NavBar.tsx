@@ -22,7 +22,7 @@ export function NavBar() {
   return (
     <>
       <div
-        className={`fixed flex flex-col w-screen h-screen z-10 bg-bg-primary text-center pt-20 gap-8 ${
+        className={`fixed flex flex-col w-screen h-screen z-10 bg-button-primary text-center pt-20 gap-8 ${
           isOpen
             ? "transition ease-in-out translate-y-0 duration-500"
             : "transition ease-in-out -translate-y-full duration-500"
@@ -53,7 +53,7 @@ export function NavBar() {
           Contact
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-r from-button-primary to-[#FFFFFF] lg:flex-row lg:justify-between lg:px-20 lg:h-24">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-button-primary lg:flex-row lg:justify-between lg:px-20 lg:h-24">
         <a
           href="tel:408-761-4606"
           target="_blank"
