@@ -7,12 +7,15 @@ import WeightImg from "../../public/images/weights.jpg"
 type ThreeTilesProps = {
   T1Img: StaticImageData,
   T1Title: string,
+  T1Blurb: string,
   T1Link: string,
   T2Img: StaticImageData,
   T2Title: string,
+  T2Blurb: string,
   T2Link: string,
   T3Img: StaticImageData,
   T3Title: string,
+  T3Blurb: string,
   T3Link: string,
 }
 
@@ -33,13 +36,11 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
           </div>
           <div className="text-2xl ml-3 py-2">
             <Link href={`/${T1Link}`} className="font-semibold">
-              Free Evaluations
+              {T1Title}
             </Link>
           </div>
           <p className="mx-4">
-            Evaluations are completely free and can be done in person at the
-            location of your choosing, through video chat, or by phone. At
-            Maximum fitness we understand the first step can be the hardest.
+            {}
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
             <Link href={"/contact"} className="font-semibold">
