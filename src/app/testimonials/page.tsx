@@ -9,11 +9,6 @@ import fatImg from "../../../public/images/jade-destiny-w6APf4aCmns-unsplash.jpg
 import skinnyImg from "../../../public/images/vladimir-yelizarov-C43tCJffOh4-unsplash.jpg";
 
 export default function Testimonials() {
-  const [isActive, setActiveImage] = React.useState(true);
-
-  const handleClick = () => {
-    setActiveImage(!isActive);
-  };
 
   return (
     <>
@@ -26,25 +21,18 @@ export default function Testimonials() {
       <FreeEval />
       <p className="hidden lg:inline lg:ml-[300px] xl:ml-[400px]">Click to reveal results!</p>
       <div className="flex flex-col max-w-[1200px] m-auto lg:flex-row">
-        <p className="text-3xl text-center pb-2 lg:hidden">
-          Tap to reveal results!
-        </p>
-        <div className="flex w-[400px]">
+        <div className="flex max-w-full h-[250px] overflow-hidden">
           <div
-            onClick={handleClick}
-            className={`lg:h-[450px] border border-red-600 overflow-hidden transition-all duration-300 ease-in-out ${
-              isActive ? "w-4/5" : "w-1/5"
-            }`}
+            
+            className="w-1/2"
           >
-            <Image src={fatImg} alt="fat" className="h-[450px]" />
+            <Image src={fatImg} alt="fat" className="" />
           </div>
           <div
-            onClick={handleClick}
-            className={`lg:h-[450px] border border-green-600 overflow-hidden transition-all duration-300 ease-in-out ${
-              isActive ? "w-1/5" : "w-4/5"
-            }`}
+            
+            className="w-1/2"
           >
-            <Image src={skinnyImg} alt="skinny" className="h-[450px]" />
+            <Image src={skinnyImg} alt="skinny" className="" />
           </div>
         </div>
         <div className="lg:w-[800px] text-center pt-6 px-3">
