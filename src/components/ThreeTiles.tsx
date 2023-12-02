@@ -31,7 +31,7 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
               src={WeightImg}
               alt="weights"
               width={500}
-              className="rounded-md"
+              className=""
             />
           </div>
           <div className="text-2xl ml-3 py-2">
@@ -43,7 +43,7 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
             {}
           </p>
           <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-            <Link href={"/contact"} className="font-semibold">
+            <Link href={`/${T1Link}`} className="font-semibold">
               More Info
             </Link>
           </div>
@@ -55,7 +55,7 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
               src={WeightImg}
               alt="weights"
               width={500}
-              className="rounded-md"
+              className=""
             />
           </div>
           <div className="text-2xl ml-3 py-2">
@@ -83,7 +83,7 @@ export function ThreeTiles({ T1Img, T1Title, T1Link, T2Img, T2Title, T2Link, T3I
               src={WeightImg}
               alt="weights"
               width={500}
-              className="rounded-md"
+              className=""
             />
           </div>
           <div className="text-2xl ml-3 py-2 z-10">
