@@ -11,8 +11,8 @@ import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
 export function MoreInfo() {
   return (
     <>
-      <div className="text-center">
-        <p className="text-xl mx-4">
+      <div className="text-center mt-3 bg-button-primary max-w-[1200px] m-auto pt-3 lg:rounded-md">
+        <p className="text-xl px-3 font-BebasNeue tracking-widest lg:text-2xl">
           For more information call, text, or message to get a free evaluation.
         </p>
         <div className="flex justify-center py-6">
