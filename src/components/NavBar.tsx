@@ -53,7 +53,7 @@ export function NavBar() {
           Contact
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-r from-button-primary to-teal-100 lg:flex-row lg:justify-between lg:px-20 lg:h-24">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-r from-button-primary to-[#FFFFFF] lg:flex-row lg:justify-between lg:px-20 lg:h-24">
         <a
           href="tel:408-761-4606"
           target="_blank"
