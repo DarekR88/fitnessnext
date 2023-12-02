@@ -9,7 +9,6 @@ import fatImg from "../../../public/images/jade-destiny-w6APf4aCmns-unsplash.jpg
 import skinnyImg from "../../../public/images/vladimir-yelizarov-C43tCJffOh4-unsplash.jpg";
 
 export default function Testimonials() {
-
   return (
     <>
       <IntroCard
@@ -19,23 +18,16 @@ export default function Testimonials() {
         let our clients' results speak for themselves."
       />
       <FreeEval />
-      <p className="hidden lg:inline lg:ml-[300px] xl:ml-[400px]">Click to reveal results!</p>
       <div className="flex flex-col max-w-[1200px] m-auto lg:flex-row">
-        <div className="flex max-w-full h-[250px] overflow-hidden">
-          <div
-            
-            className="w-1/2"
-          >
+        <div className="flex max-w-full h-[250px] overflow-hidden lg:w-1/2 lg:rounded-md">
+          <div className="w-1/2">
             <Image src={fatImg} alt="fat" className="" />
           </div>
-          <div
-            
-            className="w-1/2"
-          >
+          <div className="w-1/2">
             <Image src={skinnyImg} alt="skinny" className="" />
           </div>
         </div>
-        <div className="lg:w-[800px] text-center pt-6 px-3">
+        <div className="lg:w-1/2 text-center pt-6 px-3">
           <p>Jane Doe</p>
           <p className="text-left">
             "I lost 5 million pounds and became black. i would definitely

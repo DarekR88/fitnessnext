@@ -21,7 +21,7 @@ export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
             width={600}
           />
         </div>
-        <div className="md:w-1/4 lg:pt-[20px] lg:w-[600px] bg-bg-secondary text-font-secondary rounded-r-md">
+        <div className="md:w-1/4 lg:pt-[20px] lg:w-[600px] bg-bg-secondary text-font-secondary lg:rounded-r-md">
           <div className="text-center lg:text-left ml-4">
             <p className="text-3xl py-2 font-semibold">{title}</p>
           </div>
