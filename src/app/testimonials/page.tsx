@@ -28,7 +28,7 @@ export default function Testimonials() {
             <Image src={skinnyImg} alt="skinny" className="" />
           </div>
         </div>
-        <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-button-secondary text-font-secondary lg:rounded-r-md">
+        <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-gradient-to-b from-button-secondary to-gray-900 text-font-secondary lg:rounded-r-md">
           <p className="text-3xl">Jane Doe</p>
           <p className="text-left text-xl leading-9">
             "I lost 5 million pounds and became black. i would definitely
@@ -47,7 +47,7 @@ export default function Testimonials() {
             <Image src={skinnyImg} alt="skinny" className="" />
           </div>
         </div>
-        <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-button-secondary text-font-secondary lg:rounded-l-md">
+        <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-gradient-to-b from-button-secondary to-gray-900 text-font-secondary lg:rounded-l-md">
           <p className="text-3xl">John Joe</p>
           <p className="text-left text-xl leading-9">
             "I lost 5 million pounds and became black. i would definitely
