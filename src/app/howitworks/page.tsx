@@ -46,7 +46,7 @@ export default function HowItWorks() {
               </p>
               <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
                 <Link href={"/contact"} className="font-semibold">
-                  More Info
+                  Schedule Now
                 </Link>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function HowItWorks() {
               </p>
               <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
                 <Link href={"/contact"} className="font-semibold">
-                  More Info
+                  Schedule Now
                 </Link>
               </div>
             </div>
@@ -106,7 +106,7 @@ export default function HowItWorks() {
               </p>
               <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
                 <Link href={"/contact"} className="font-semibold">
-                  More Info
+                  Schedule Now
                 </Link>
               </div>
             </div>
