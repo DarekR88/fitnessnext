@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { MoreInfo } from "@/components/MoreInfo";
-import introImg from "../../../public/images/jenny-ueberberg-brfcpBfCebY-unsplash.jpg";
+import introImg from "../../../public/images/james-mckinven-Ohu89iIorIc-unsplash.jpg";
 
 export default function Contact() {
   return (
