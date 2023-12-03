@@ -11,11 +11,11 @@ import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
 export function MoreInfo() {
   return (
     <>
-      <div className="text-center bg-gradient-to-b from-button-primary via-yellow-400 to-button-primary max-w-screen m-auto pt-3 lg:pt-6 lg:rounded-md">
+      <div className="text-center py-4 bg-gradient-to-b from-button-primary via-yellow-400 to-button-primary max-w-screen m-auto pt-3 lg:py-10 lg:rounded-md">
         <p className="text-xl px-3 font-BebasNeue tracking-widest lg:text-2xl">
           For more information call, text, or message to get a free evaluation.
         </p>
-        <div className="flex justify-center py-6">
+        <div className="flex justify-center pt-4">
           <div className="flex gap-8 px-2 mb-2 z-0">
             <a
               href="tel:408-761-4606"
