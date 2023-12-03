@@ -27,13 +27,67 @@ export default function Pricing() {
               <p>In Home Personal Training</p>
             </div>
             <div>
-              <p>$75 <span>for</span> 30 <span>minute</span> Session</p>
+              <p>
+                $75 <span>for</span> 30 <span>minute</span> Session
+              </p>
             </div>
             <div>
-              <p>$85 <span>for</span> 45 <span>minute</span> Session</p>
+              <p>
+                $95 <span>for</span> 1 <span>hour</span> Session
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Virtual Personal Training</p>
             </div>
             <div>
-              <p>$95 <span>for</span> 1 <span>hour</span> Session</p>
+              <p>
+                $55 <span>for</span> 30 <span>minute</span> Session
+              </p>
+            </div>
+            <div>
+              <p>
+                $85 <span>for</span> 1 <span>hour</span> Session
+              </p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <p>Group Personal Training</p>
+            </div>
+            <div>
+              <p>
+                Work out with your significant other or host a class for your
+                friends. Only Available in-home.
+              </p>
+            </div>
+            <div>
+              <p>Couples Workouts</p>
+              <p>
+                $100 <span>for</span> 30 <span>minute</span> Session
+              </p>
+            </div>
+            <div>
+              <p>
+                $150 <span>for</span> 1 <span>hour</span> Session
+              </p>
+            </div>
+            <div>
+              <p>Groups of 3 or more</p>
+            </div>
+            <div>
+              <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>
+            </div>
+            <div>
+              <p>
+                $120 <span>for</span> 30 <span>minute</span> Session
+              </p>
+            </div>
+            <div>
+              <p>
+                $175 <span>for</span> 1 <span>hour</span> Session
+              </p>
             </div>
           </div>
         </div>
