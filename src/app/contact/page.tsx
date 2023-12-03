@@ -15,12 +15,12 @@ export default function Contact() {
         blurb="Available 6am-11pm every day. Serving Houston and most suburbs"
       />
       <MoreInfo />
-      <div className="text-center flex flex-col pt-3 lg:pt-0 bg-button-secondary max-w-[1200px] m-auto lg:pt-6 lg:pb-6 lg:rounded-md">
+      <div className="text-center flex flex-col pt-3 bg-gradient-to-b from-button-secondary to-[#073635] max-w-screen m-auto lg:py-10">
         <a
           href="tel:408-761-4606"
           target="_blank"
           rel="noreferrer noopener"
-          className="pb-3 text-2xl m-auto text-font-secondary"
+          className="pb-4 text-2xl m-auto text-font-secondary"
         >
           Phone:(123)-456-789
         </a>
@@ -28,7 +28,7 @@ export default function Contact() {
           href="mailto:darekradke2@gmail.com"
           target="_blank"
           rel="noreferrer noopener"
-          className="pb-3 text-2xl m-auto text-font-secondary"
+          className="text-2xl m-auto text-font-secondary"
         >
           E-mail:MaximumFit@gmail.com
         </a>
