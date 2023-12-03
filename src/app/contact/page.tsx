@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { MoreInfo } from "@/components/MoreInfo";
-import introImg from "../../../public/images/weights.jpg";
+import introImg from "../../../public/images/jenny-ueberberg-brfcpBfCebY-unsplash.jpg";
 
 export default function Contact() {
   return (
@@ -15,7 +15,7 @@ export default function Contact() {
         blurb="Available 6am-11pm every day. Serving Houston and most suburbs"
       />
       <MoreInfo />
-      <div className="text-center flex flex-col pt-3 bg-gradient-to-b from-button-secondary to-[#073635] max-w-screen m-auto lg:py-10">
+      <div className="text-center flex flex-col py-6 bg-gradient-to-b from-button-secondary to-[#073635] max-w-screen m-auto lg:py-10">
         <a
           href="tel:408-761-4606"
           target="_blank"
