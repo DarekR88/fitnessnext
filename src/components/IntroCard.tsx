@@ -13,7 +13,7 @@ type IntroCardProps = {
 export function IntroCard({ introImg, title, blurb }: IntroCardProps) {
   return (
     <>
-      <div className="flex flex-wrap justify-center lg:py-12 bg-gradient-to-b from-bg-secondary to-[#002F3D]">
+      <div className="flex flex-wrap justify-center lg:py-12 bg-gradient-to-b from-[#002F3D] to-[#001F29]">
         <div className="w-full max-h-max overflow-hidden md:w-1/3 lg:w-[600px] lg:h-80 lg:rounded-md">
           <Image
             src={introImg}

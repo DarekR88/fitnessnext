@@ -21,10 +21,10 @@ export default function Home() {
           comes to reaching your goals."
       />
       <FreeEval />
-      <div className="bg-gradient-to-b from-button-secondary to-[#073635] text-font-secondary lg:py-12">
-        <div className="flex flex-wrap pb-3 w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
+      <div className="text-font-secondary lg:pb-12">
+        <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -35,7 +35,7 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:h-[236px] py-4">
               <div className="text-2xl ml-3 pb-2">
                 <Link href={"/contact"} className="font-semibold">
                   Free Evaluations
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -65,7 +65,7 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:h-[236px] py-4">
               <div className="text-2xl ml-3 pb-2">
                 <Link href={"/pricing"} className="font-semibold">
                   Affordable Pricing
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -97,7 +97,7 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:h-[236px] py-4">
               <div className="text-2xl ml-3 pb-2 z-10">
                 <Link href={"/programs"} className="font-semibold">
                   Cutting Edge Programs
@@ -108,7 +108,7 @@ export default function Home() {
                 studies and kinesiology. Our competitive pricing does not effect
                 our ability to provide the highest quality training.
               </p>
-              <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
+              <div className="w-full text-center pt-3 lg:pt-8 pb-6 text-2xl lg:pb-0">
                 <Link href={"/programs"} className="font-semibold">
                   More Info
                 </Link>
