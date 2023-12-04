@@ -47,7 +47,7 @@ export default function Home() {
                 Maximum fitness we understand the first step can be the hardest.
               </p>
               <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-                <Link href={"/contact"} className="font-semibold">
+                <Link href={"/contact"} className="font-semibold underline transition ease-in-out hover:text-button-primary duration-500">
                   More Info
                 </Link>
               </div>
@@ -79,7 +79,7 @@ export default function Home() {
                 industry.
               </p>
               <div className="w-full text-center pt-3 pb-8 text-2xl lg:pb-0">
-                <Link href={"/pricing"} className="font-semibold">
+                <Link href={"/pricing"} className="font-semibold underline transition ease-in-out hover:text-button-primary duration-500">
                   More Info
                 </Link>
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 our ability to provide the highest quality training.
               </p>
               <div className="w-full text-center pt-3 lg:pt-8 pb-6 text-2xl lg:pb-0">
-                <Link href={"/programs"} className="font-semibold">
+                <Link href={"/programs"} className="font-semibold underline transition ease-in-out hover:text-button-primary duration-500">
                   More Info
                 </Link>
               </div>
