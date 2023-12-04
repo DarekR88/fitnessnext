@@ -20,67 +20,70 @@ export default function Pricing() {
         Our goal is to help you reach your goals."
       />
       <FreeEval />
-      <div className="px-4 py-4 bg-gradient-to-b from-button-secondary to-[#073635] text-font-secondary lg:py-12">
-        <div className="lg:flex max-w-[1200px] m-auto">
-          <div>
-            <div>
-              <p className="text-3xl">In Home Personal Training</p>
 
-              <p className="text-xl">
-                $75 <span>for</span> 30 <span>minute</span> Session
-              </p>
+      <div className="lg:flex max-w-[1200px] m-auto text-font-secondary">
+        <div className="border-2 border-black">
+          <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
+            <p className="text-3xl">In Home Personal Training</p>
 
-              <p className="text-xl">
-                $95 <span>for</span> 1 <span>hour</span> Session
-              </p>
-            </div>
-            <div>
-              <p className="text-3xl">Virtual Personal Training</p>
-
-              <p className="text-xl">
-                $55 <span>for</span> 30 <span>minute</span> Session
-              </p>
-
-              <p className="text-xl">
-                $85 <span>for</span> 1 <span>hour</span> Session
-              </p>
-            </div>
-          </div>
-          <div>
-            <p className="text-3xl">Group Personal Training</p>
-
-            <p>
-              Work out with your significant other or host a class for your
-              friends. Only Available in-home.
+            <p className="text-xl">
+              $75 <span>for</span> 30 <span>minute</span> Session
             </p>
 
-            <div>
-              <p className="text-2xl">Couples Workouts</p>
-              <p className="text-xl">
-                $100 <span>for</span> 30 <span>minute</span> Session
-              </p>
-            </div>
-            <div>
-              <p className="text-xl">
-                $150 <span>for</span> 1 <span>hour</span> Session
-              </p>
-            </div>
-            <div>
-              <p className="text-2xl">Groups of 3 or more</p>
-            </div>
-            <div>
-              <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>
-            </div>
-            <div>
-              <p className="text-xl">
-                $120 <span>for</span> 30 <span>minute</span> Session
-              </p>
-            </div>
-            <div>
-              <p className="text-xl">
-                $175 <span>for</span> 1 <span>hour</span> Session
-              </p>
-            </div>
+            <p className="text-xl">
+              $95 <span>for</span> 1 <span>hour</span> Session
+            </p>
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
+          <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
+            <p className="text-3xl">Virtual Personal Training</p>
+
+            <p className="text-xl">
+              $55 <span>for</span> 30 <span>minute</span> Session
+            </p>
+
+            <p className="text-xl">
+              $85 <span>for</span> 1 <span>hour</span> Session
+            </p>
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
+        </div>
+        <div className="border-2 max-w-[500px] border-black bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
+          <p className="text-3xl">Group Personal Training</p>
+
+          <p>
+            Work out with your significant other or host a class for your
+            friends. Only Available in-home.
+          </p>
+
+          <div>
+            <p className="text-2xl">Couples Workouts</p>
+            <p className="text-xl">
+              $100 <span>for</span> 30 <span>minute</span> Session
+            </p>
+          </div>
+          <div>
+            <p className="text-xl">
+              $150 <span>for</span> 1 <span>hour</span> Session
+            </p>
+            <Link href={"/contact"}>Schedule Now</Link>
+          </div>
+          <div>
+            <p className="text-2xl">Groups of 3 or more</p>
+          </div>
+          <div>
+            <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>
+          </div>
+          <div>
+            <p className="text-xl">
+              $120 <span>for</span> 30 <span>minute</span> Session
+            </p>
+          </div>
+          <div>
+            <p className="text-xl">
+              $175 <span>for</span> 1 <span>hour</span> Session
+            </p>
+            <Link href={"/contact"}>Schedule Now</Link>
           </div>
         </div>
       </div>
