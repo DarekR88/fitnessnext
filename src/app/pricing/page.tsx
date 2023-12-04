@@ -21,8 +21,8 @@ export default function Pricing() {
       />
       <FreeEval />
 
-      <div className="lg:flex max-w-[1200px] m-auto text-font-secondary">
-        <div className="border-2 border-black">
+      <div className="lg:flex max-w-[1200px] m-auto text-font-secondary items-center justify-center lg:mb-12">
+        <div className=" flex flex-col border-2 border-black">
           <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
             <p className="text-3xl">In Home Personal Training</p>
 
@@ -30,10 +30,10 @@ export default function Pricing() {
               $75 <span>for</span> 30 <span>minute</span> Session
             </p>
 
-            <p className="text-xl">
+            <p className="text-xl pb-2">
               $95 <span>for</span> 1 <span>hour</span> Session
             </p>
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
           <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
             <p className="text-3xl">Virtual Personal Training</p>
@@ -42,10 +42,10 @@ export default function Pricing() {
               $55 <span>for</span> 30 <span>minute</span> Session
             </p>
 
-            <p className="text-xl">
+            <p className="text-xl pb-2">
               $85 <span>for</span> 1 <span>hour</span> Session
             </p>
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
         </div>
         <div className="border-2 max-w-[500px] border-black bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
@@ -63,13 +63,13 @@ export default function Pricing() {
             </p>
           </div>
           <div>
-            <p className="text-xl">
+            <p className="text-xl  pb-2">
               $150 <span>for</span> 1 <span>hour</span> Session
             </p>
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
           <div>
-            <p className="text-2xl">Groups of 3 or more</p>
+            <p className="text-2xl pt-2">Groups of 3 or more</p>
           </div>
           <div>
             <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>
@@ -80,10 +80,10 @@ export default function Pricing() {
             </p>
           </div>
           <div>
-            <p className="text-xl">
+            <p className="text-xl  pb-2">
               $175 <span>for</span> 1 <span>hour</span> Session
             </p>
-            <Link href={"/contact"}>Schedule Now</Link>
+            <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
         </div>
       </div>
