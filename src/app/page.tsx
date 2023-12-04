@@ -24,7 +24,7 @@ export default function Home() {
       <div className="text-font-secondary lg:pb-12">
         <div className="flex flex-wrap w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:z-0"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image

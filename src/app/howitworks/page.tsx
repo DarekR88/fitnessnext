@@ -20,10 +20,10 @@ export default function HowItWorks() {
         free first workout(30 minutes)."
       />
       <FreeEval />
-      <div className="bg-gradient-to-b from-button-secondary to-[#073635] text-font-secondary lg:py-12">
+      <div className=" text-font-secondary lg:pb-12">
         <div className="flex flex-wrap pb-3 w-full lg:max-w-[1200px] lg:justify-center lg:m-auto lg:justify-between">
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -34,7 +34,7 @@ export default function HowItWorks() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-4">
               <div className="text-2xl ml-3 pb-2">
                 <Link href={"/contact"} className="font-semibold">
                   Free Evaluation and First Session
@@ -52,7 +52,7 @@ export default function HowItWorks() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -63,8 +63,8 @@ export default function HowItWorks() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
-              <div className="text-2xl ml-3 pb-2">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-4">
+              <div className="text-2xl ml-3 pb-2 lg:pb-4">
                 <Link href={"/contact"} className="font-semibold">
                   In Home Personal Training
                 </Link>
@@ -82,7 +82,7 @@ export default function HowItWorks() {
             </div>
           </div>
           <div className="lg:w-[390px]">
-            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0 lg:rounded-md"></div>
+            <div className="hidden lg:block lg:relative lg:h-[250px] lg:w-[390px] lg:bg-gradient-to-b from-gray-400 to-bg-secondary lg:z-0"></div>
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
@@ -93,8 +93,8 @@ export default function HowItWorks() {
                 />
               </Link>
             </div>
-            <div className="bg-gradient-to-b from-button-secondary to-[#073635] py-4">
-              <div className="text-2xl ml-3 pb-2 z-10">
+            <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-4">
+              <div className="text-2xl ml-3 pb-2 lg:pb-4 z-10">
                 <Link href={"/contact"} className="font-semibold">
                   Virtual Personal Training
                 </Link>
