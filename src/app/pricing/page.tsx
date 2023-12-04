@@ -21,12 +21,12 @@ export default function Pricing() {
       />
       <FreeEval />
 
-      <div className="lg:flex max-w-[1200px] m-auto text-font-secondary items-center justify-center lg:mb-12">
-        <div className=" flex flex-col border-2 border-black">
+      <div className="lg:flex max-w-[1200px] m-auto text-font-secondary items-center justify-center lg:justify-between lg:mb-12">
+        <div className=" flex flex-col border-2 border-black lg:w-[550px] lg:h-[452px] lg:justify-between">
           <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
-            <p className="text-3xl">In Home Personal Training</p>
+            <p className="text-3xl pb-2 lg:text-[40px]">In Home Personal Training</p>
 
-            <p className="text-xl">
+            <p className="text-xl pb-1">
               $75 <span>for</span> 30 <span>minute</span> Session
             </p>
 
@@ -36,9 +36,9 @@ export default function Pricing() {
             <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
           <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
-            <p className="text-3xl">Virtual Personal Training</p>
+            <p className="text-3xl pb-2">Virtual Personal Training</p>
 
-            <p className="text-xl">
+            <p className="text-xl pb-1">
               $55 <span>for</span> 30 <span>minute</span> Session
             </p>
 
@@ -48,8 +48,8 @@ export default function Pricing() {
             <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
         </div>
-        <div className="border-2 max-w-[500px] border-black bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
-          <p className="text-3xl">Group Personal Training</p>
+        <div className="border-2 max-w-[550px] border-black bg-gradient-to-b from-[#002F3D] to-[#001F29] py-3 lg:py-6 px-3 lg:px-6">
+          <p className="text-3xl pb-2 lg:text-[40px]">Group Personal Training</p>
 
           <p>
             Work out with your significant other or host a class for your
@@ -57,8 +57,8 @@ export default function Pricing() {
           </p>
 
           <div>
-            <p className="text-2xl">Couples Workouts</p>
-            <p className="text-xl">
+            <p className="text-2xl pb-1">Couples Workouts</p>
+            <p className="text-xl pb-1">
               $100 <span>for</span> 30 <span>minute</span> Session
             </p>
           </div>
@@ -69,13 +69,13 @@ export default function Pricing() {
             <Link href={"/contact"} className="text-2xl">Schedule Now</Link>
           </div>
           <div>
-            <p className="text-2xl pt-2">Groups of 3 or more</p>
+            <p className="text-2xl pb-1 pt-2">Groups of 3 or more</p>
           </div>
-          <div>
+          <div className="pb-1">
             <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>
           </div>
           <div>
-            <p className="text-xl">
+            <p className="text-xl pb-1">
               $120 <span>for</span> 30 <span>minute</span> Session
             </p>
           </div>
