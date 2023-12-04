@@ -24,46 +24,36 @@ export default function Pricing() {
         <div className="lg:flex max-w-[1200px] m-auto">
           <div>
             <div>
-              <div>
-                <p className="text-3xl">In Home Personal Training</p>
-              </div>
-              <div>
-                <p className="text-xl">
-                  $75 <span>for</span> 30 <span>minute</span> Session
-                </p>
-              </div>
-              <div>
-                <p className="text-xl">
-                  $95 <span>for</span> 1 <span>hour</span> Session
-                </p>
-              </div>
+              <p className="text-3xl">In Home Personal Training</p>
+
+              <p className="text-xl">
+                $75 <span>for</span> 30 <span>minute</span> Session
+              </p>
+
+              <p className="text-xl">
+                $95 <span>for</span> 1 <span>hour</span> Session
+              </p>
             </div>
             <div>
-              <div>
-                <p className="text-3xl">Virtual Personal Training</p>
-              </div>
-              <div>
-                <p className="text-xl">
-                  $55 <span>for</span> 30 <span>minute</span> Session
-                </p>
-              </div>
-              <div>
-                <p className="text-xl">
-                  $85 <span>for</span> 1 <span>hour</span> Session
-                </p>
-              </div>
+              <p className="text-3xl">Virtual Personal Training</p>
+
+              <p className="text-xl">
+                $55 <span>for</span> 30 <span>minute</span> Session
+              </p>
+
+              <p className="text-xl">
+                $85 <span>for</span> 1 <span>hour</span> Session
+              </p>
             </div>
           </div>
           <div>
-            <div>
-              <p className="text-3xl">Group Personal Training</p>
-            </div>
-            <div>
-              <p>
-                Work out with your significant other or host a class for your
-                friends. Only Available in-home.
-              </p>
-            </div>
+            <p className="text-3xl">Group Personal Training</p>
+
+            <p>
+              Work out with your significant other or host a class for your
+              friends. Only Available in-home.
+            </p>
+
             <div>
               <p className="text-2xl">Couples Workouts</p>
               <p className="text-xl">
