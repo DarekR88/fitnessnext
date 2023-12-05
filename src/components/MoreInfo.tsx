@@ -11,7 +11,7 @@ import PhoneSvg from "../../public/icons/phone-svgrepo-com.svg";
 export function MoreInfo() {
   return (
     <>
-      <div className="max-w-[800px] text-center py-4 bg-gradient-to-b from-button-primary via-yellow-500 to-button-primary max-w-screen m-auto pt-3 lg:py-6 lg:my-9">
+      <div className="max-w-[775px] text-center py-4 bg-gradient-to-b from-button-primary via-yellow-500 to-button-primary max-w-screen m-auto pt-3 lg:py-6 lg:my-9">
         <p className="text-xl px-3 font-BebasNeue tracking-widest lg:text-2xl">
           For more information call, text, or message to get a free evaluation.
         </p>

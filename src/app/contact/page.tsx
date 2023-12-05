@@ -12,9 +12,13 @@ export default function Contact() {
       <IntroCard
         introImg={introImg}
         title="Contact"
-        blurb="Available 6am-11pm every day. Serving Houston and most suburbs."
+        blurb="Available 6am-11pm every day. Serving Houston and most suburbs.
+        Don't be shy, just text ''hi'' or give us a call at (123)-456-7890. 
+        Send us and E-mail @maxfit@gmail.com, or send a message through social media.
+        You'll instantly be connected to a local personal trainer when available. 
+        From there you can schedule your free first session and free evaluation."
       />
-      <div className="text-center flex flex-col py-6 bg-[#001F29] lg:py-10">
+      <div className="text-center flex flex-col py-6 lg:pt-0 bg-[#001F29] lg:pb-10">
         <a
           href="tel:408-761-4606"
           target="_blank"
