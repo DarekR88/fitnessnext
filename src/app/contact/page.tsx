@@ -12,10 +12,9 @@ export default function Contact() {
       <IntroCard
         introImg={introImg}
         title="Contact"
-        blurb="Available 6am-11pm every day. Serving Houston and most suburbs"
+        blurb="Available 6am-11pm every day. Serving Houston and most suburbs."
       />
-      <MoreInfo />
-      <div className="text-center flex flex-col py-6 bg-gradient-to-b from-[#002F3D] to-[#001F29] max-w-screen m-auto lg:py-10">
+      <div className="text-center flex flex-col py-6 bg-[#001F29] lg:py-10">
         <a
           href="tel:408-761-4606"
           target="_blank"
@@ -33,6 +32,7 @@ export default function Contact() {
           E-mail:MaximumFit@gmail.com
         </a>
       </div>
+      <MoreInfo />
     </>
   );
 }
