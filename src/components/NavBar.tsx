@@ -43,14 +43,14 @@ export function NavBar() {
         {/* <Link onClick={handleClick} className="text-3xl" href="/nutrition">
           Nutrition
         </Link> */}
-        <Link onClick={handleClick} className="text-3xl" href="/about">
-          About
-        </Link>
         <Link onClick={handleClick} className="text-3xl" href="/testimonials">
           Testimonials
         </Link>
         <Link onClick={handleClick} className="text-3xl" href="/contact">
           Contact
+        </Link>
+        <Link onClick={handleClick} className="text-3xl" href="/about">
+          About
         </Link>
       </div>
       <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-24">
@@ -122,14 +122,14 @@ export function NavBar() {
           {/* <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/nutrition">
             Nutrition
           </Link> */}
-          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
-            About
-          </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/testimonials">
             Testimonials
           </Link>
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/contact">
             Contact
+          </Link>
+          <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center" href="/about">
+            About
           </Link>
         </div>
         <div className="flex gap-8 px-2 z-0">

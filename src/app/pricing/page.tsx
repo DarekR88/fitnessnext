@@ -57,7 +57,7 @@ export default function Pricing() {
           </p>
 
           <div>
-            <p className="text-2xl pb-1">Couples Workouts</p>
+            <p className="text-2xl pb-1 font-semibold">Couples Workouts</p>
             <p className="text-xl pb-1">
               $100 <span>for</span> 30 <span>minute</span> Session
             </p>
@@ -69,7 +69,7 @@ export default function Pricing() {
             <Link href={"/contact"} className="text-2xl font-semibold underline transition ease-in-out hover:text-button-primary duration-500">Schedule Now</Link>
           </div>
           <div>
-            <p className="text-2xl pb-1 pt-2">Groups of 3 or more</p>
+            <p className="text-2xl pb-1 pt-2 font-semibold">Groups of 3 or more</p>
           </div>
           <div className="pb-1">
             <p>Routines: HIT, Yoga, Kickboxing, Aerobics</p>

@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="bg-gradient-to-b from-[#002F3D] to-[#001F29] lg:h-[236px] py-4">
               <div className="text-2xl ml-3 pb-2 z-10">
-                <Link href={"/programs"} className="font-semibold">
+                <Link href={"/contact"} className="font-semibold">
                   Cutting Edge Programs
                 </Link>
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
                 our ability to provide the highest quality training.
               </p>
               <div className="w-full text-center pt-3 lg:pt-8 pb-6 text-2xl lg:pb-0">
-                <Link href={"/programs"} className="font-semibold underline transition ease-in-out hover:text-button-primary duration-500">
+                <Link href={"/contact"} className="font-semibold underline transition ease-in-out hover:text-button-primary duration-500">
                   More Info
                 </Link>
               </div>
