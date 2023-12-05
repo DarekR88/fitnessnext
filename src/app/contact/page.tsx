@@ -14,7 +14,7 @@ export default function Contact() {
         title="Contact"
         blurb="Available 6am-11pm every day. Serving Houston and most suburbs.
         Don't be shy, just text ''hi'' or give us a call at (123)-456-7890. 
-        Send us and E-mail @maxfit@gmail.com, or send a message through social media.
+        Send us an E-mail at maxfit@gmail.com, or send a message through social media.
         You'll instantly be connected to a local personal trainer when available. 
         From there you can schedule your free first session and free evaluation."
       />

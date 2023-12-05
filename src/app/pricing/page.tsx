@@ -39,7 +39,7 @@ export default function Pricing() {
             <p className="text-3xl pb-2 lg:text-[38px] font-semibold">Virtual Personal Training</p>
 
             <p className="text-xl pb-1">
-              $55 <span>for</span> 30 <span>minute</span> Session
+              $65 <span>for</span> 30 <span>minute</span> Session
             </p>
 
             <p className="text-xl pb-2">

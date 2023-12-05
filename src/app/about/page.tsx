@@ -29,12 +29,11 @@ export default function About() {
             Lead Trainer, Darek Radke
           </p>
           <p className="text-xl px-4 pb-6">
-            I know from experience that exercise can totally change your life.
-            I've been a personal trainer for 3 years and I started Maximum to
-            help more people the right way. Beyond the hard work outs, the
-            personal training methods I've develop also seek to eliminate
-            negative lifestyle elements like negative self talk and disordered
-            eating.
+            I know from experience that exercise can totally change your life. I
+            started Maximum to help more people the right way. Beyond the hard
+            work outs, the personal training methods I've develop also seek to
+            eliminate negative lifestyle elements like negative self talk and
+            disordered eating. 
           </p>
         </div>
       </div>
