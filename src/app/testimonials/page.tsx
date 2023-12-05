@@ -38,7 +38,7 @@ export default function Testimonials() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col pt-3 max-w-[1200px] m-auto lg:flex-row-reverse">
+        <div className="flex flex-col pt-6 max-w-[1200px] m-auto lg:flex-row-reverse">
           <div className="flex max-w-full h-[250px] overflow-hidden lg:w-1/2 lg:h-[400px]">
             <div className="w-1/2">
               <Image src={fatImg} alt="fat" className="" />
