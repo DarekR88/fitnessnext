@@ -70,7 +70,7 @@ export default function HowItWorks() {
                 </Link>
               </div>
               <p className="mx-4">
-                We'll bring everything you need to reach your fitness goals.
+                We&#39;ll bring everything you need to reach your fitness goals.
                 Forget the traffic and crowded gym, get in shape in the comfort
                 of your own home.
               </p>
@@ -101,7 +101,7 @@ export default function HowItWorks() {
               </div>
               <p className="mx-4">
                 Meet your personal trainer through video call. Receive all the
-                benefits of personal training while staying contact free. We'll
+                benefits of personal training while staying contact free. We&#39;ll
                 keep you accountable and motivated.
               </p>
               <div className="w-full text-center pt-3 pb-6 text-2xl lg:pb-0">
