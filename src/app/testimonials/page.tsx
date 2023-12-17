@@ -30,12 +30,12 @@ export default function Testimonials() {
           </div>
           <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-gradient-to-b from-[#002F3D] to-[#001F29] text-font-secondary">
             <p className="text-3xl">Jane Doe</p>
-            <p className="text-left text-xl leading-9">
-              "I lost 5 million pounds and became black. i would definitely
+            <q className="text-left text-xl leading-9">
+              I lost 5 million pounds and became black. i would definitely
               recommend Maximum Fitness for all your personal training needs. My
               personal trainer was invaluable to my fitness journey and was
-              always on time."
-            </p>
+              always on time.
+            </q>
           </div>
         </div>
         <div className="flex flex-col pt-6 max-w-[1200px] m-auto lg:flex-row-reverse">
@@ -49,12 +49,12 @@ export default function Testimonials() {
           </div>
           <div className="lg:w-1/2 text-center px-3 py-3 lg:px-4 lg:pt-14 bg-gradient-to-b from-[#002F3D] to-[#001F29] text-font-secondary">
             <p className="text-3xl">John Joe</p>
-            <p className="text-left text-xl leading-9">
-              "I lost 5 million pounds and became black. i would definitely
+            <q className="text-left text-xl leading-9">
+              I lost 5 million pounds and became black. i would definitely
               recommend Maximum Fitness for all your personal training needs. My
               personal trainer was invaluable to my fitness journey and was
-              always on time."
-            </p>
+              always on time.
+            </q>
           </div>
         </div>
       </div>
