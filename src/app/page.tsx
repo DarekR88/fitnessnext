@@ -8,7 +8,7 @@ import { redirect } from "next/navigation";
 import { IntroCard } from "@/components/IntroCard";
 import { FreeEval } from "@/components/FreeEval";
 import WeightImg from "../../public/images/weights.jpg";
-import GirlImg from "../../public/images/pexels-karolina-grabowska-4498606.jpg";
+import GirlImg from "../../public/images/pexels-karl-solano-2780762.jpg";
 import PhoneImg from "../../public/images/jenny-ueberberg-brfcpBfCebY-unsplash.jpg";
 import SmileImg from "../../public/images/pexels-nathan-cowley-1089144.jpg";
 import ProgramImg from "../../public/images/pexels-cliff-booth-4056824.jpg";

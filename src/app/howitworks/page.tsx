@@ -6,12 +6,16 @@ import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { FreeEval } from "@/components/FreeEval";
 import WeightImg from "../../../public/images/weights.jpg";
+import WorksImg from "../../../public/images/pexels-karolina-grabowska-4498452.jpg";
+import HowImg from "../../../public/images/pexels-julia-larson-6455903.jpg";
+import OtherImg from "../../../public/images/pexels-julia-larson-6456305.jpg";
+import HomeImg from "../../../public/images/pexels-pavel-danilyuk-7055735.jpg";
 
 export default function HowItWorks() {
   return (
     <>
       <IntroCard
-        introImg={WeightImg}
+        introImg={OtherImg}
         title="How it Works"
         blurb="Initial evaluation and first workout are free! Start your fitness 
         journey by scheduling a free initial evaluation and first session. 
@@ -27,7 +31,7 @@ export default function HowItWorks() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={HowImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
@@ -56,7 +60,7 @@ export default function HowItWorks() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={HomeImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
@@ -86,7 +90,7 @@ export default function HowItWorks() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={WorksImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
