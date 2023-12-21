@@ -8,12 +8,16 @@ import { redirect } from "next/navigation";
 import { IntroCard } from "@/components/IntroCard";
 import { FreeEval } from "@/components/FreeEval";
 import WeightImg from "../../public/images/weights.jpg";
+import GirlImg from "../../public/images/pexels-karolina-grabowska-4498606.jpg";
+import PhoneImg from "../../public/images/jenny-ueberberg-brfcpBfCebY-unsplash.jpg";
+import SmileImg from "../../public/images/pexels-nathan-cowley-1089144.jpg";
+import ProgramImg from "../../public/images/pexels-cliff-booth-4056824.jpg";
 
 export default function Home() {
   return (
     <>
       <IntroCard
-        introImg={WeightImg}
+        introImg={GirlImg}
         title="Maximum Fitness"
         blurb="At Maximum Fitness your health and wellness are our priority. 
           We have the most dedicated personal trainers in Houston and our cutting edge 
@@ -28,7 +32,7 @@ export default function Home() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={PhoneImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
@@ -58,7 +62,7 @@ export default function Home() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={SmileImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
@@ -90,7 +94,7 @@ export default function Home() {
             <div className="lg:relative lg:-mt-[250px] lg:h-[250px] overflow-hidden rounded-md z-10 lg:transform transition lg:opacity-50 duration-500 lg:hover:opacity-100">
               <Link href={"/contact"} className="font-semibold">
                 <Image
-                  src={WeightImg}
+                  src={ProgramImg}
                   alt="weights"
                   width={500}
                   className="rounded-md"
