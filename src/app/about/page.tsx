@@ -4,7 +4,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { IntroCard } from "@/components/IntroCard";
 import { FreeEval } from "@/components/FreeEval";
-import introImg from "../../../public/images/weights.jpg";
+import introImg from "../../../public/images/pexels-karolina-grabowska-4498606.jpg";
 
 export default function About() {
   return (

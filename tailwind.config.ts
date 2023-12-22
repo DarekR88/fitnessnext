@@ -26,6 +26,8 @@ const config: Config = {
         Raleway: ["Raleway", "sans-serif"],
         BebasNeue: ["Bebas Neue", "sans-serif"],
         Heebo: ["Heebo", "sans-serif"],
+        Cantarell: ["Cantarell", "sans-serif"],
+        Oswald: ["Oswald", "sans-serif"],
       },
     },
   },

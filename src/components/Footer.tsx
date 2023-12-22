@@ -9,7 +9,7 @@ export function Footer() {
         <p>
           <span>&copy;</span> 2023 Darek Radke
         </p>
-        <Link href={"/"} className="font-Raleway text-2xl px-3">
+        <Link href={"/"} className="font-BebasNeue text-2xl px-3">
           Maximum Fitness
         </Link>
         <Link href={"/contact"} className="text-xl">

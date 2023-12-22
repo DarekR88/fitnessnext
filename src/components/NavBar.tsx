@@ -53,7 +53,12 @@ export function NavBar() {
           About
         </Link>
       </div>
-      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-24">
+      <header className="flex flex-wrap gap-4 py-4 justify-center items-center w-screen bg-gradient-to-t from-button-primary to-yellow-400 lg:flex-row lg:justify-between lg:px-20 lg:h-28">
+        <Link href={"/"} className="flex flex-col font-BebasNeue tracking-widest text-xl z-0 px-3">
+          <p className="text-2xl">Insight</p>
+          <p className="text-base">Personal</p>
+          <p className="text-base">Training</p>
+        </Link>
         <a
           href="tel:408-761-4606"
           target="_blank"
@@ -62,9 +67,6 @@ export function NavBar() {
         >
           <Image src={PhoneSvg} alt="pfp" width={23} />
         </a>
-        <Link href={"/"} className="font-Raleway text-xl z-0 px-3">
-          Maximum Fitness
-        </Link>
         <a
           href="tel:408-761-4606"
           target="_blank"
@@ -83,29 +85,7 @@ export function NavBar() {
           <Image src={MailIcon} alt="pfp" width={25} />
           <span className="pl-1">E-mail</span>
         </a>
-        <button
-          onClick={handleClick}
-          className="inline flex flex-col justify-center items-center z-20 lg:hidden"
-        >
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${
-                      isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm my-0.5 ${
-                      isOpen ? "opacity-0" : "opacity-100"
-                    }`}
-          ></span>
-          <span
-            className={`bg-black block transition-all duration-300 ease-out 
-                    h-0.5 w-6 rounded-sm ${
-                      isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-                    }`}
-          ></span>
-        </button>
+
         <div className="hidden lg:flex gap-6">
           <Link className="text-l relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-black after:w-full after:scale-x-0 after:hover:scale-x-100 after:focus:scale-x-100 after:transition after:duration-300 after:origin-center" href="/">
             Home
@@ -132,7 +112,7 @@ export function NavBar() {
             About
           </Link>
         </div>
-        <div className="flex gap-8 px-2 z-0">
+        <div className="flex gap-4 px-2 z-0">
           <a
             href="mailto:darekradke2@gmail.com"
             target="_blank"
@@ -162,6 +142,29 @@ export function NavBar() {
             <Image src={TiktokIcon} alt="pfp" width={25} />
           </a>
         </div>
+        <button
+          onClick={handleClick}
+          className="inline flex flex-col justify-center items-center z-20 lg:hidden"
+        >
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "rotate-45 translate-y-1.5" : "-translate-y-1.5"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm my-0.5 ${
+                      isOpen ? "opacity-0" : "opacity-100"
+                    }`}
+          ></span>
+          <span
+            className={`bg-black block transition-all duration-300 ease-out 
+                    h-1 w-8 rounded-sm ${
+                      isOpen ? "-rotate-45 -translate-y-1.5" : "translate-y-1.5"
+                    }`}
+          ></span>
+        </button>
       </header>
     </>
   );
